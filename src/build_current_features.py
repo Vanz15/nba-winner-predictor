@@ -42,23 +42,48 @@ def build_team_snapshots(df):
     for team in df["TEAM_NAME"].unique():
         team_df = df[df["TEAM_NAME"] == team].sort_values("GAME_DATE")
 
+        latest_5 = team_df.tail(5)
         latest_10 = team_df.tail(10)
+
         latest_home_5 = team_df[team_df["is_home"] == 1].tail(5)
         latest_away_5 = team_df[team_df["is_home"] == 0].tail(5)
 
         snapshot = {
             "TEAM_NAME": team,
+
+            "win_last5": latest_5["win"].mean(),
             "win_last10": latest_10["win"].mean(),
+
+            "PTS_last5": latest_5["PTS"].mean(),
             "PTS_last10": latest_10["PTS"].mean(),
+
+            "PTS_ALLOWED_last5": latest_5["PTS_ALLOWED"].mean(),
             "PTS_ALLOWED_last10": latest_10["PTS_ALLOWED"].mean(),
+
+            "point_diff_last5": latest_5["point_diff"].mean(),
             "point_diff_last10": latest_10["point_diff"].mean(),
+
+            "net_rating_simple_last5": latest_5["net_rating_simple"].mean(),
             "net_rating_simple_last10": latest_10["net_rating_simple"].mean(),
+
+            "FG_PCT_last5": latest_5["FG_PCT"].mean(),
             "FG_PCT_last10": latest_10["FG_PCT"].mean(),
+
+            "FG3_PCT_last5": latest_5["FG3_PCT"].mean(),
             "FG3_PCT_last10": latest_10["FG3_PCT"].mean(),
+
+            "FT_PCT_last5": latest_5["FT_PCT"].mean(),
             "FT_PCT_last10": latest_10["FT_PCT"].mean(),
+
+            "REB_last5": latest_5["REB"].mean(),
             "REB_last10": latest_10["REB"].mean(),
+
+            "AST_last5": latest_5["AST"].mean(),
             "AST_last10": latest_10["AST"].mean(),
+
+            "TOV_last5": latest_5["TOV"].mean(),
             "TOV_last10": latest_10["TOV"].mean(),
+
             "home_win_last5": latest_home_5["win"].mean(),
             "away_win_last5": latest_away_5["win"].mean(),
         }
