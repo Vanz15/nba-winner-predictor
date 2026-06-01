@@ -83,7 +83,17 @@ def add_pre_game_rolling_features(logs):
             logs.groupby("TEAM_ID")[col]
             .transform(lambda x: x.shift(1).rolling(10, min_periods=1).mean())
         )
+    logs["season_game_number"] = logs.groupby("TEAM_ID").cumcount() + 1
 
+    logs["season_wins_before"] = (
+        logs.groupby("TEAM_ID")["win"].cumsum() - logs["win"]
+    )
+
+    logs["season_win_pct"] = (
+        logs["season_wins_before"] / (logs["season_game_number"] - 1)
+    )
+
+    logs["season_win_pct"] = logs["season_win_pct"].fillna(0)
     logs["prev_game_date"] = logs.groupby("TEAM_ID")["GAME_DATE"].shift(1)
     logs["rest_days"] = (logs["GAME_DATE"] - logs["prev_game_date"]).dt.days
     logs["back_to_back"] = (logs["rest_days"] == 1).astype(int)
@@ -170,6 +180,7 @@ def add_difference_features(games):
         "TOV_last10",
         "rest_days",
         "back_to_back",
+        "season_win_pct",
     ]
 
     for feature in feature_pairs:
@@ -183,6 +194,91 @@ def add_difference_features(games):
 
     return games
 
+def add_elo_features(games, k_factor=20, initial_elo=1500):
+    games = games.sort_values("HOME_GAME_DATE").copy()
+
+    team_elos = {}
+
+    home_elo_list = []
+    away_elo_list = []
+
+    for _, row in games.iterrows():
+        home_team = row["HOME_TEAM_NAME"]
+        away_team = row["AWAY_TEAM_NAME"]
+
+        home_elo = team_elos.get(home_team, initial_elo)
+        away_elo = team_elos.get(away_team, initial_elo)
+
+        home_elo_list.append(home_elo)
+        away_elo_list.append(away_elo)
+
+        expected_home = 1 / (1 + 10 ** ((away_elo - home_elo) / 400))
+        actual_home = row["home_team_win"]
+
+        team_elos[home_team] = home_elo + k_factor * (actual_home - expected_home)
+        team_elos[away_team] = away_elo + k_factor * ((1 - actual_home) - (1 - expected_home))
+
+    games["HOME_elo_rating"] = home_elo_list
+    games["AWAY_elo_rating"] = away_elo_list
+    games["elo_rating_diff"] = games["HOME_elo_rating"] - games["AWAY_elo_rating"]
+
+    return games
+
+def add_head_to_head_features(games):
+    games = games.sort_values("HOME_GAME_DATE").copy()
+
+    history = {}
+    h2h_win_pct_diffs = []
+    h2h_point_diffs = []
+
+    for _, row in games.iterrows():
+        home_team = row["HOME_TEAM_NAME"]
+        away_team = row["AWAY_TEAM_NAME"]
+
+        matchup_key = tuple(sorted([home_team, away_team]))
+
+        past_games = history.get(matchup_key, [])
+
+        if not past_games:
+            h2h_win_pct_diffs.append(0.0)
+            h2h_point_diffs.append(0.0)
+        else:
+            home_wins = 0
+            away_wins = 0
+            home_point_diff_total = 0
+
+            for game in past_games:
+                if game["winner"] == home_team:
+                    home_wins += 1
+                elif game["winner"] == away_team:
+                    away_wins += 1
+
+                if game["team_a"] == home_team:
+                    home_point_diff_total += game["team_a_pts"] - game["team_b_pts"]
+                else:
+                    home_point_diff_total += game["team_b_pts"] - game["team_a_pts"]
+
+            total_games = len(past_games)
+
+            h2h_win_pct_diffs.append((home_wins - away_wins) / total_games)
+            h2h_point_diffs.append(home_point_diff_total / total_games)
+
+        winner = home_team if row["home_team_win"] == 1 else away_team
+
+        history.setdefault(matchup_key, []).append(
+            {
+                "team_a": home_team,
+                "team_b": away_team,
+                "team_a_pts": row["HOME_PTS"],
+                "team_b_pts": row["AWAY_PTS"],
+                "winner": winner,
+            }
+        )
+
+    games["head_to_head_win_pct_diff"] = h2h_win_pct_diffs
+    games["head_to_head_point_diff"] = h2h_point_diffs
+
+    return games
 
 def select_final_columns(games):
     final_cols = [
@@ -221,6 +317,8 @@ def main():
 
     games = create_matchup_dataset(logs)
     games = add_difference_features(games)
+    games = add_elo_features(games)
+    games = add_head_to_head_features(games)
 
     final = select_final_columns(games)
 

@@ -35,8 +35,53 @@ def prepare_logs(df):
 
     return df
 
+def compute_current_elo(df, k_factor=20, initial_elo=1500):
+    games = []
 
-def build_team_snapshots(df):
+    for game_id in df["GAME_ID"].unique():
+        rows = df[df["GAME_ID"] == game_id]
+
+        if len(rows) != 2:
+            continue
+
+        home = rows[rows["MATCHUP"].str.contains("vs.", na=False)]
+        away = rows[rows["MATCHUP"].str.contains("@", na=False)]
+
+        if home.empty or away.empty:
+            continue
+
+        home = home.iloc[0]
+        away = away.iloc[0]
+
+        games.append(
+            {
+                "GAME_DATE": home["GAME_DATE"],
+                "HOME_TEAM_NAME": home["TEAM_NAME"],
+                "AWAY_TEAM_NAME": away["TEAM_NAME"],
+                "home_team_win": int(home["PTS"] > away["PTS"]),
+            }
+        )
+
+    games = pd.DataFrame(games).sort_values("GAME_DATE")
+
+    team_elos = {}
+
+    for _, row in games.iterrows():
+        home_team = row["HOME_TEAM_NAME"]
+        away_team = row["AWAY_TEAM_NAME"]
+
+        home_elo = team_elos.get(home_team, initial_elo)
+        away_elo = team_elos.get(away_team, initial_elo)
+
+        expected_home = 1 / (1 + 10 ** ((away_elo - home_elo) / 400))
+        actual_home = row["home_team_win"]
+
+        team_elos[home_team] = home_elo + k_factor * (actual_home - expected_home)
+        team_elos[away_team] = away_elo + k_factor * ((1 - actual_home) - (1 - expected_home))
+
+    return team_elos
+
+def build_team_snapshots(df, team_elos):
     snapshots = []
 
     for team in df["TEAM_NAME"].unique():
@@ -86,6 +131,10 @@ def build_team_snapshots(df):
 
             "home_win_last5": latest_home_5["win"].mean(),
             "away_win_last5": latest_away_5["win"].mean(),
+
+            "season_win_pct": team_df["win"].mean(),
+            "elo_rating": team_elos.get(team, 1500),
+            
         }
 
         snapshots.append(snapshot)
@@ -101,7 +150,8 @@ def main():
     df = add_opponent_points(df)
     df = prepare_logs(df)
 
-    snapshots = build_team_snapshots(df)
+    team_elos = compute_current_elo(df)
+    snapshots = build_team_snapshots(df, team_elos)
 
     snapshots.to_csv(OUTPUT_PATH, index=False)
 
