@@ -190,6 +190,8 @@ def select_final_columns(games):
         "HOME_GAME_DATE",
         "HOME_TEAM_NAME",
         "AWAY_TEAM_NAME",
+        "HOME_PTS",
+        "AWAY_PTS",
         "home_team_win",
         "home_court",
     ]

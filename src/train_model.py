@@ -8,7 +8,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.pipeline import Pipeline
 
 
-DATA_PATH = "data/processed/nba_games_features.csv"
+DATA_PATH = "data/processed/nba_training_features.csv"
 MODEL_PATH = "models/nba_logistic_model.pkl"
 
 
@@ -27,6 +27,8 @@ def split_data(df):
         "HOME_GAME_DATE",
         "HOME_TEAM_NAME",
         "AWAY_TEAM_NAME",
+        "HOME_PTS",
+        "AWAY_PTS",
         "home_team_win",
     ]
 

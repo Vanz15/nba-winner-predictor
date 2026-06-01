@@ -6,16 +6,21 @@ SNAPSHOT_PATH = "data/processed/current_team_snapshots.csv"
 MODEL_PATH = "models/nba_logistic_model.pkl"
 FEATURE_COLUMNS_PATH = "models/feature_columns.pkl"
 CURRENT_RAW_PATH = "data/raw/nba_games_current_raw.csv"
+HOME_SCORE_MODEL_PATH = "models/home_score_model.pkl"
+AWAY_SCORE_MODEL_PATH = "models/away_score_model.pkl"
 
 
 def load_assets():
     model = joblib.load(MODEL_PATH)
+    home_score_model = joblib.load(HOME_SCORE_MODEL_PATH)
+    away_score_model = joblib.load(AWAY_SCORE_MODEL_PATH)
+
     feature_columns = joblib.load(FEATURE_COLUMNS_PATH)
     snapshots = pd.read_csv(SNAPSHOT_PATH)
     current_games = pd.read_csv(CURRENT_RAW_PATH)
     current_games["GAME_DATE"] = pd.to_datetime(current_games["GAME_DATE"])
 
-    return model, feature_columns, snapshots, current_games
+    return model, home_score_model, away_score_model, feature_columns, snapshots, current_games
 
 
 def get_team_snapshot(snapshots, team_name):
@@ -312,8 +317,8 @@ def generate_readable_explanations(
     return readable
 
 
-def predict_game(home_team, away_team):
-    model, feature_columns, snapshots, current_games = load_assets()
+def predict_game(home_team, away_team, over_under_line=None):
+    model, home_score_model, away_score_model, feature_columns, snapshots, current_games = load_assets()
 
     home_snapshot = get_team_snapshot(snapshots, home_team)
     away_snapshot = get_team_snapshot(snapshots, away_team)
@@ -325,6 +330,9 @@ def predict_game(home_team, away_team):
     )
 
     home_win_probability = model.predict_proba(X)[0][1]
+    predicted_home_score = float(home_score_model.predict(X)[0])
+    predicted_away_score = float(away_score_model.predict(X)[0])
+    predicted_total_points = predicted_home_score + predicted_away_score
 
     if home_win_probability >= 0.5:
         predicted_winner = home_team
@@ -350,6 +358,19 @@ def predict_game(home_team, away_team):
         away_team=away_team,
     )
 
+    over_under_pick = None
+    over_under_edge = None
+
+    if over_under_line is not None:
+        over_under_edge = predicted_total_points - over_under_line
+
+        if predicted_total_points > over_under_line:
+            over_under_pick = "OVER"
+        elif predicted_total_points < over_under_line:
+            over_under_pick = "UNDER"
+        else:
+            over_under_pick = "PUSH"
+
     return {
         "home_team": home_team,
         "away_team": away_team,
@@ -360,13 +381,20 @@ def predict_game(home_team, away_team):
         "raw_explanation": raw_explanation,
         "readable_explanations": readable_explanations,
         "head_to_head_summary": head_to_head_summary,
+        "predicted_home_score": predicted_home_score,
+        "predicted_away_score": predicted_away_score,
+        "predicted_total_points": predicted_total_points,
+        "over_under_line": over_under_line,
+        "over_under_pick": over_under_pick,
+        "over_under_edge": over_under_edge,
     }
 
 
 if __name__ == "__main__":
     result = predict_game(
-        home_team="New York Knicks",
-        away_team="San Antonio Spurs",
+        home_team="San Antonio Spurs",
+        away_team="New York Knicks",
+        over_under_line=224.5,
     )
 
     print("\nNBA Game Prediction")
@@ -382,9 +410,22 @@ if __name__ == "__main__":
 
     for i, reason in enumerate(result["readable_explanations"], start=1):
         print(f"{i}. {reason['factor']}")
-        print(f"   Direction: {reason['direction']}")
+        #print(f"   Direction: {reason['direction']}")
         print(f"   Impact score: {reason['impact']:.3f}")
 
     print("\nHead-to-Head Insight this Season:")
     print("-" * 30)
     print(result["head_to_head_summary"])
+
+    print("\nPredicted Score")
+    print("-" * 30)
+    print(f"{result['away_team']}: {result['predicted_away_score']:.1f}")
+    print(f"{result['home_team']}: {result['predicted_home_score']:.1f}")
+    print(f"Predicted Total Points: {result['predicted_total_points']:.1f}")
+
+    if result["over_under_line"] is not None:
+        print("\nOver/Under")
+        print("-" * 30)
+        print("Line:", result["over_under_line"])
+        print("Model Pick:", result["over_under_pick"])
+        print("Edge:", round(result["over_under_edge"], 1))
