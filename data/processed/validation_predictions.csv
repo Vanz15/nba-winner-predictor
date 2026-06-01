@@ -1,0 +1,1386 @@
+HOME_GAME_DATE,HOME_TEAM_NAME,AWAY_TEAM_NAME,home_team_win,predicted_home_win,home_win_probability,correct
+2024-10-04,Utah Jazz,New Zealand Breakers,1,1,0.7659567964919006,True
+2024-10-04,Los Angeles Lakers,Minnesota Timberwolves,0,1,0.504103930397481,False
+2024-10-05,LA Clippers,Golden State Warriors,0,0,0.39657824680515047,True
+2024-10-06,Los Angeles Lakers,Phoenix Suns,0,1,0.5034815794265117,False
+2024-10-06,Charlotte Hornets,New York Knicks,0,0,0.49164770817479136,True
+2024-10-06,Detroit Pistons,Milwaukee Bucks,1,0,0.4787854587082533,False
+2024-10-07,New Orleans Pelicans,Orlando Magic,1,0,0.4395236818350001,False
+2024-10-07,Philadelphia 76ers,New Zealand Breakers,1,1,0.9236998374432539,True
+2024-10-07,San Antonio Spurs,Oklahoma City Thunder,0,0,0.4287174084162494,True
+2024-10-07,Utah Jazz,Houston Rockets,1,0,0.4078120919389451,False
+2024-10-07,Dallas Mavericks,Memphis Grizzlies,0,1,0.6791509610309195,False
+2024-10-08,Detroit Pistons,Phoenix Suns,0,1,0.5189843256081459,False
+2024-10-08,Charlotte Hornets,Miami Heat,1,1,0.5057263091543436,True
+2024-10-08,Atlanta Hawks,Indiana Pacers,1,0,0.41343607265573296,False
+2024-10-08,Cleveland Cavaliers,Chicago Bulls,0,0,0.4860783661421442,True
+2024-10-08,LA Clippers,Brooklyn Nets,1,0,0.4968091129849643,False
+2024-10-09,New York Knicks,Washington Wizards,1,1,0.6356708950781029,True
+2024-10-09,San Antonio Spurs,Orlando Magic,1,0,0.4664501082589819,False
+2024-10-09,Sacramento Kings,Golden State Warriors,0,1,0.6888387127995071,False
+2024-10-09,Oklahoma City Thunder,Houston Rockets,0,1,0.6794069811785708,False
+2024-10-10,Cleveland Cavaliers,Indiana Pacers,0,0,0.49725159403577995,True
+2024-10-10,Milwaukee Bucks,Los Angeles Lakers,0,1,0.5077119998492601,False
+2024-10-10,Oklahoma City Thunder,New Zealand Breakers,1,1,0.9029528703884272,True
+2024-10-10,Dallas Mavericks,Utah Jazz,0,1,0.6688490005693302,False
+2024-10-10,Memphis Grizzlies,Charlotte Hornets,0,0,0.48064155951328685,True
+2024-10-11,LA Clippers,Portland Trail Blazers,1,1,0.6412898570599602,True
+2024-10-11,Phoenix Suns,Detroit Pistons,0,1,0.5774708521349551,False
+2024-10-11,Washington Wizards,Toronto Raptors,1,1,0.5436031081428709,True
+2024-10-11,Golden State Warriors,Sacramento Kings,1,1,0.53858623972116,True
+2024-10-11,Minnesota Timberwolves,Philadelphia 76ers,1,0,0.4374437866839257,False
+2024-10-12,Chicago Bulls,Memphis Grizzlies,0,1,0.6054989662295703,False
+2024-10-12,San Antonio Spurs,Utah Jazz,1,1,0.5738366581543077,True
+2024-10-12,Boston Celtics,Philadelphia 76ers,1,1,0.6644560831270022,True
+2024-10-13,Golden State Warriors,Detroit Pistons,1,1,0.6131184091381431,True
+2024-10-13,Miami Heat,New Orleans Pelicans,1,1,0.6203471266198295,True
+2024-10-13,Boston Celtics,Toronto Raptors,1,1,0.8246458804552373,True
+2024-10-13,Denver Nuggets,Phoenix Suns,0,0,0.4912750913784788,True
+2024-10-13,New York Knicks,Minnesota Timberwolves,1,1,0.5237134295114158,True
+2024-10-13,Sacramento Kings,Portland Trail Blazers,0,1,0.7898177994384946,False
+2024-10-14,Indiana Pacers,Memphis Grizzlies,0,1,0.6232733000382842,False
+2024-10-14,LA Clippers,Dallas Mavericks,1,0,0.4686169359606814,False
+2024-10-14,Brooklyn Nets,Washington Wizards,1,1,0.5800950878448428,True
+2024-10-14,Atlanta Hawks,Philadelphia 76ers,0,0,0.4090424968987526,True
+2024-10-14,Milwaukee Bucks,Chicago Bulls,1,0,0.45580029520218285,False
+2024-10-15,Houston Rockets,New Orleans Pelicans,1,1,0.6576931603821707,True
+2024-10-15,New York Knicks,Charlotte Hornets,1,1,0.5970245202418644,True
+2024-10-15,Utah Jazz,Sacramento Kings,1,1,0.5196906889109303,True
+2024-10-15,Denver Nuggets,Oklahoma City Thunder,0,0,0.36388823280754146,True
+2024-10-15,Los Angeles Lakers,Golden State Warriors,0,1,0.5023490931358786,False
+2024-10-15,Miami Heat,San Antonio Spurs,1,0,0.4918288945130406,False
+2024-10-15,Toronto Raptors,Boston Celtics,1,0,0.2074596291248515,False
+2024-10-16,Chicago Bulls,Minnesota Timberwolves,1,0,0.41521199618554994,False
+2024-10-16,Philadelphia 76ers,Brooklyn Nets,1,1,0.6808777824657228,True
+2024-10-16,Miami Heat,Atlanta Hawks,1,1,0.6643707375788521,True
+2024-10-16,Detroit Pistons,Cleveland Cavaliers,1,1,0.5198697377679569,True
+2024-10-17,Minnesota Timberwolves,Denver Nuggets,0,1,0.5938366756827491,False
+2024-10-17,Indiana Pacers,Charlotte Hornets,1,1,0.553918404349096,True
+2024-10-17,LA Clippers,Sacramento Kings,1,1,0.572770382490871,True
+2024-10-17,Phoenix Suns,Los Angeles Lakers,0,0,0.46874701467473967,True
+2024-10-17,Oklahoma City Thunder,Atlanta Hawks,1,1,0.8843203473804684,True
+2024-10-17,Houston Rockets,San Antonio Spurs,1,1,0.5895149151990543,True
+2024-10-17,Dallas Mavericks,Milwaukee Bucks,1,1,0.6517581597712171,True
+2024-10-18,Chicago Bulls,Cleveland Cavaliers,1,1,0.6207970227848453,True
+2024-10-18,Portland Trail Blazers,Utah Jazz,1,0,0.4641977377977092,False
+2024-10-18,Brooklyn Nets,Toronto Raptors,0,1,0.6106698660952495,False
+2024-10-18,Washington Wizards,New York Knicks,1,0,0.3603620694508545,False
+2024-10-18,Orlando Magic,Philadelphia 76ers,1,1,0.5911511904047235,True
+2024-10-18,Golden State Warriors,Los Angeles Lakers,1,1,0.6868525052501394,True
+2024-10-18,Memphis Grizzlies,Miami Heat,0,0,0.45312721262290206,True
+2024-10-22,Boston Celtics,New York Knicks,1,1,0.7730293716787515,True
+2024-10-22,Los Angeles Lakers,Minnesota Timberwolves,1,0,0.38778479286951034,False
+2024-10-23,Detroit Pistons,Indiana Pacers,0,1,0.5070970569055482,False
+2024-10-23,LA Clippers,Phoenix Suns,0,1,0.6097072802457958,False
+2024-10-23,Houston Rockets,Charlotte Hornets,0,1,0.6692004422527745,False
+2024-10-23,Miami Heat,Orlando Magic,0,1,0.6015082329666076,False
+2024-10-23,Philadelphia 76ers,Milwaukee Bucks,0,1,0.6833105557667478,False
+2024-10-23,New Orleans Pelicans,Chicago Bulls,1,0,0.3776374498575543,False
+2024-10-23,Portland Trail Blazers,Golden State Warriors,0,0,0.3859159379682589,True
+2024-10-23,Atlanta Hawks,Brooklyn Nets,1,0,0.46700882487514944,False
+2024-10-23,Utah Jazz,Memphis Grizzlies,0,1,0.554089548263315,False
+2024-10-23,Toronto Raptors,Cleveland Cavaliers,0,0,0.4923303064051108,True
+2024-10-24,Washington Wizards,Boston Celtics,0,0,0.2098841639188934,True
+2024-10-24,Denver Nuggets,Oklahoma City Thunder,0,0,0.36505758399028443,True
+2024-10-24,Dallas Mavericks,San Antonio Spurs,1,1,0.6254481903523545,True
+2024-10-24,Sacramento Kings,Minnesota Timberwolves,0,1,0.527530486003652,False
+2024-10-25,Toronto Raptors,Philadelphia 76ers,1,0,0.4671110925127573,False
+2024-10-25,Milwaukee Bucks,Chicago Bulls,0,1,0.5291463622582134,False
+2024-10-25,Los Angeles Lakers,Phoenix Suns,1,0,0.4628950342145787,False
+2024-10-25,Atlanta Hawks,Charlotte Hornets,1,0,0.45145899142415846,False
+2024-10-25,Portland Trail Blazers,New Orleans Pelicans,0,1,0.5975276020901849,False
+2024-10-25,Houston Rockets,Memphis Grizzlies,1,1,0.674953453946637,True
+2024-10-25,Cleveland Cavaliers,Detroit Pistons,1,1,0.6070572721436635,True
+2024-10-25,New York Knicks,Indiana Pacers,1,1,0.5621745646343097,True
+2024-10-25,Orlando Magic,Brooklyn Nets,1,1,0.7139612898861332,True
+2024-10-25,Utah Jazz,Golden State Warriors,0,0,0.31193855967350437,True
+2024-10-26,Detroit Pistons,Boston Celtics,0,0,0.2547090270673081,True
+2024-10-26,Charlotte Hornets,Miami Heat,0,0,0.45044416810917814,True
+2024-10-26,Minnesota Timberwolves,Toronto Raptors,1,1,0.6990984199780544,True
+2024-10-26,Washington Wizards,Cleveland Cavaliers,0,0,0.3817440695369734,True
+2024-10-26,Memphis Grizzlies,Orlando Magic,1,0,0.3224560097563738,False
+2024-10-26,Phoenix Suns,Dallas Mavericks,1,0,0.3663895141976775,False
+2024-10-26,San Antonio Spurs,Houston Rockets,1,1,0.514629365360466,True
+2024-10-26,Denver Nuggets,LA Clippers,0,0,0.42859207352538486,True
+2024-10-26,Chicago Bulls,Oklahoma City Thunder,0,0,0.3078860034284594,True
+2024-10-26,Los Angeles Lakers,Sacramento Kings,1,0,0.37532352357619414,False
+2024-10-27,Golden State Warriors,LA Clippers,0,1,0.8071699600042637,False
+2024-10-27,Indiana Pacers,Philadelphia 76ers,0,1,0.5289532577561602,False
+2024-10-27,Portland Trail Blazers,New Orleans Pelicans,1,1,0.6088734684768862,True
+2024-10-27,Oklahoma City Thunder,Atlanta Hawks,1,1,0.7372841800300985,True
+2024-10-27,Brooklyn Nets,Milwaukee Bucks,1,1,0.6254977022409464,True
+2024-10-28,Orlando Magic,Indiana Pacers,1,1,0.7302747567956055,True
+2024-10-28,Toronto Raptors,Denver Nuggets,0,1,0.5661259385132199,False
+2024-10-28,Phoenix Suns,Los Angeles Lakers,1,1,0.6360573467934706,True
+2024-10-28,San Antonio Spurs,Houston Rockets,0,0,0.4393522012774394,True
+2024-10-28,Memphis Grizzlies,Chicago Bulls,0,0,0.46154166329284374,True
+2024-10-28,Sacramento Kings,Portland Trail Blazers,1,1,0.6349137947479337,True
+2024-10-28,Boston Celtics,Milwaukee Bucks,1,1,0.8710802933275207,True
+2024-10-28,Miami Heat,Detroit Pistons,1,1,0.5226232583928537,True
+2024-10-28,Dallas Mavericks,Utah Jazz,1,1,0.7386649361185524,True
+2024-10-28,Atlanta Hawks,Washington Wizards,0,1,0.5727848623111242,False
+2024-10-28,New York Knicks,Cleveland Cavaliers,0,1,0.5788743081718112,False
+2024-10-29,Brooklyn Nets,Denver Nuggets,0,1,0.7715016013360126,False
+2024-10-29,Minnesota Timberwolves,Dallas Mavericks,0,1,0.6342995344121439,False
+2024-10-29,Golden State Warriors,New Orleans Pelicans,1,1,0.840258688123973,True
+2024-10-29,Utah Jazz,Sacramento Kings,0,0,0.4518568050964907,True
+2024-10-30,Charlotte Hornets,Toronto Raptors,1,1,0.5544899731537904,True
+2024-10-30,LA Clippers,Portland Trail Blazers,0,1,0.6470578524642647,False
+2024-10-30,Cleveland Cavaliers,Los Angeles Lakers,1,1,0.7165006709669858,True
+2024-10-30,Indiana Pacers,Boston Celtics,1,0,0.26944113010221404,False
+2024-10-30,Philadelphia 76ers,Detroit Pistons,0,1,0.5647850981224318,False
+2024-10-30,Miami Heat,New York Knicks,0,1,0.5753114115773783,False
+2024-10-30,Oklahoma City Thunder,San Antonio Spurs,1,1,0.7728969518268178,True
+2024-10-30,Chicago Bulls,Orlando Magic,1,1,0.5269770822920757,True
+2024-10-30,Washington Wizards,Atlanta Hawks,1,1,0.5444217887526999,True
+2024-10-30,Memphis Grizzlies,Brooklyn Nets,0,1,0.5411785386092224,False
+2024-10-30,Golden State Warriors,New Orleans Pelicans,1,1,0.8900854551436356,True
+2024-10-31,Utah Jazz,San Antonio Spurs,0,1,0.5453589427943003,False
+2024-10-31,Dallas Mavericks,Houston Rockets,0,1,0.516311190553667,False
+2024-10-31,LA Clippers,Phoenix Suns,0,0,0.4884023039128561,True
+2024-10-31,Memphis Grizzlies,Milwaukee Bucks,1,0,0.4607355660777225,False
+2024-11-01,Portland Trail Blazers,Oklahoma City Thunder,0,0,0.317020126046755,True
+2024-11-01,Detroit Pistons,New York Knicks,0,1,0.5139252367430738,False
+2024-11-01,Charlotte Hornets,Boston Celtics,0,0,0.3322581331359334,True
+2024-11-01,New Orleans Pelicans,Indiana Pacers,1,0,0.47469051070499096,False
+2024-11-01,Toronto Raptors,Los Angeles Lakers,0,1,0.6008994365616684,False
+2024-11-01,Minnesota Timberwolves,Denver Nuggets,1,1,0.6202572744077133,True
+2024-11-01,Brooklyn Nets,Chicago Bulls,1,1,0.6392748336448022,True
+2024-11-01,Atlanta Hawks,Sacramento Kings,0,1,0.5243923397175987,False
+2024-11-01,Cleveland Cavaliers,Orlando Magic,1,1,0.6407284230724746,True
+2024-11-02,Charlotte Hornets,Boston Celtics,0,0,0.24158589872728667,True
+2024-11-02,Philadelphia 76ers,Memphis Grizzlies,0,1,0.5408725744973334,False
+2024-11-02,Phoenix Suns,Portland Trail Blazers,1,1,0.644901498983979,True
+2024-11-02,LA Clippers,Oklahoma City Thunder,0,0,0.4045504090320311,True
+2024-11-02,Toronto Raptors,Sacramento Kings,1,0,0.4921366190973721,False
+2024-11-02,San Antonio Spurs,Minnesota Timberwolves,1,1,0.6113395580991458,True
+2024-11-02,Milwaukee Bucks,Cleveland Cavaliers,0,0,0.40185941782889467,True
+2024-11-02,Denver Nuggets,Utah Jazz,1,1,0.5637179343649074,True
+2024-11-02,Houston Rockets,Golden State Warriors,0,0,0.300352416848715,True
+2024-11-03,Brooklyn Nets,Detroit Pistons,0,1,0.6481748865229829,False
+2024-11-03,New Orleans Pelicans,Atlanta Hawks,0,1,0.61656494017015,False
+2024-11-03,Dallas Mavericks,Orlando Magic,1,1,0.5869935599009757,True
+2024-11-04,Washington Wizards,Golden State Warriors,0,0,0.17520076750932992,True
+2024-11-04,Miami Heat,Sacramento Kings,0,1,0.6082434940704984,False
+2024-11-04,Detroit Pistons,Los Angeles Lakers,1,0,0.4785573198546101,False
+2024-11-04,LA Clippers,San Antonio Spurs,1,1,0.5836487602632108,True
+2024-11-04,Denver Nuggets,Toronto Raptors,1,1,0.5596994891532674,True
+2024-11-04,Houston Rockets,New York Knicks,1,0,0.4837820790718792,False
+2024-11-04,Dallas Mavericks,Indiana Pacers,0,1,0.5596316200392839,False
+2024-11-04,Brooklyn Nets,Memphis Grizzlies,1,0,0.46575855593033244,False
+2024-11-04,Oklahoma City Thunder,Orlando Magic,1,1,0.8444428110493559,True
+2024-11-04,Chicago Bulls,Utah Jazz,0,1,0.7480019664986655,False
+2024-11-04,Phoenix Suns,Philadelphia 76ers,1,1,0.6638486676893705,True
+2024-11-04,New Orleans Pelicans,Portland Trail Blazers,0,0,0.4211552939247802,True
+2024-11-04,Minnesota Timberwolves,Charlotte Hornets,1,1,0.6099794312090645,True
+2024-11-04,Atlanta Hawks,Boston Celtics,0,0,0.20683435383906945,True
+2024-11-04,Cleveland Cavaliers,Milwaukee Bucks,1,1,0.7648395616090768,True
+2024-11-06,Memphis Grizzlies,Los Angeles Lakers,1,1,0.6423894349968734,True
+2024-11-06,Denver Nuggets,Oklahoma City Thunder,1,0,0.265268039947334,False
+2024-11-06,LA Clippers,Philadelphia 76ers,1,1,0.6211619334637085,True
+2024-11-06,Houston Rockets,San Antonio Spurs,1,1,0.6614971264592677,True
+2024-11-06,Charlotte Hornets,Detroit Pistons,1,0,0.49920292566411417,False
+2024-11-06,Phoenix Suns,Miami Heat,1,0,0.4948024029558585,False
+2024-11-06,Boston Celtics,Golden State Warriors,0,1,0.5020531976766323,False
+2024-11-06,Dallas Mavericks,Chicago Bulls,1,1,0.6717161051426437,True
+2024-11-06,Atlanta Hawks,New York Knicks,1,0,0.3516503967642063,False
+2024-11-06,New Orleans Pelicans,Cleveland Cavaliers,0,0,0.3394984860695467,True
+2024-11-06,Indiana Pacers,Orlando Magic,1,1,0.6393401628149011,True
+2024-11-06,Sacramento Kings,Toronto Raptors,1,1,0.5948497840891074,True
+2024-11-07,Chicago Bulls,Minnesota Timberwolves,0,0,0.41648233898312015,True
+2024-11-07,San Antonio Spurs,Portland Trail Blazers,1,0,0.4334055041778744,False
+2024-11-07,Milwaukee Bucks,Utah Jazz,1,1,0.7220923714947752,True
+2024-11-08,Minnesota Timberwolves,Portland Trail Blazers,1,1,0.6384806029509437,True
+2024-11-08,New York Knicks,Milwaukee Bucks,1,1,0.7635831315592989,True
+2024-11-08,Memphis Grizzlies,Washington Wizards,1,1,0.7346461127926183,True
+2024-11-08,Oklahoma City Thunder,Houston Rockets,1,1,0.6833593977565486,True
+2024-11-08,Cleveland Cavaliers,Golden State Warriors,1,0,0.44547540538981356,False
+2024-11-08,Los Angeles Lakers,Philadelphia 76ers,1,1,0.5647193544979929,True
+2024-11-08,Orlando Magic,New Orleans Pelicans,1,1,0.685935696451827,True
+2024-11-08,Dallas Mavericks,Phoenix Suns,0,1,0.6098707911002572,False
+2024-11-08,Denver Nuggets,Miami Heat,1,0,0.48350142152692077,False
+2024-11-08,Detroit Pistons,Atlanta Hawks,1,1,0.6111284954465649,True
+2024-11-08,Sacramento Kings,LA Clippers,0,1,0.5431862075145281,False
+2024-11-08,Charlotte Hornets,Indiana Pacers,1,0,0.43337691209252294,False
+2024-11-08,Boston Celtics,Brooklyn Nets,1,1,0.7801179244410262,True
+2024-11-09,LA Clippers,Toronto Raptors,1,1,0.5691912309094052,True
+2024-11-09,San Antonio Spurs,Utah Jazz,0,1,0.7736485837599743,False
+2024-11-09,Atlanta Hawks,Chicago Bulls,0,1,0.5245970540247694,False
+2024-11-09,Cleveland Cavaliers,Brooklyn Nets,1,1,0.7640493608037731,True
+2024-11-10,Denver Nuggets,Dallas Mavericks,1,1,0.5440519831673739,True
+2024-11-10,Los Angeles Lakers,Toronto Raptors,1,1,0.6914929774805592,True
+2024-11-10,Oklahoma City Thunder,Golden State Warriors,0,1,0.5976157083786603,False
+2024-11-10,Portland Trail Blazers,Memphis Grizzlies,0,0,0.3581947297490676,True
+2024-11-10,Philadelphia 76ers,Charlotte Hornets,1,1,0.598020317385276,True
+2024-11-10,Detroit Pistons,Houston Rockets,0,0,0.41859090569390484,True
+2024-11-10,Phoenix Suns,Sacramento Kings,0,1,0.573582772026416,False
+2024-11-10,Indiana Pacers,New York Knicks,1,0,0.43580217590155446,False
+2024-11-10,Minnesota Timberwolves,Miami Heat,0,1,0.567258193640709,False
+2024-11-10,Orlando Magic,Washington Wizards,1,1,0.7415798901073676,True
+2024-11-10,Milwaukee Bucks,Boston Celtics,0,0,0.3085267363749614,True
+2024-11-11,Chicago Bulls,Cleveland Cavaliers,0,0,0.292833480843482,True
+2024-11-11,Houston Rockets,Washington Wizards,1,1,0.7916241632239086,True
+2024-11-11,New Orleans Pelicans,Brooklyn Nets,0,0,0.4611842534324976,True
+2024-11-11,Oklahoma City Thunder,LA Clippers,1,1,0.6583905768081958,True
+2024-11-11,San Antonio Spurs,Sacramento Kings,1,0,0.4949448008868993,False
+2024-11-12,Philadelphia 76ers,New York Knicks,0,0,0.36026628922020215,True
+2024-11-12,Utah Jazz,Phoenix Suns,0,0,0.2458865136889433,True
+2024-11-12,Portland Trail Blazers,Minnesota Timberwolves,1,0,0.3152816262684069,False
+2024-11-12,Orlando Magic,Charlotte Hornets,1,1,0.7138130560268027,True
+2024-11-12,Boston Celtics,Atlanta Hawks,0,1,0.7598226812785256,False
+2024-11-12,Milwaukee Bucks,Toronto Raptors,1,1,0.6079531451367236,True
+2024-11-12,Golden State Warriors,Dallas Mavericks,1,1,0.6231472387415363,True
+2024-11-12,Detroit Pistons,Miami Heat,1,0,0.4421809518916445,False
+2024-11-13,Sacramento Kings,Phoenix Suns,1,1,0.5368377507314093,True
+2024-11-13,Los Angeles Lakers,Memphis Grizzlies,1,0,0.49680616509676484,False
+2024-11-13,Portland Trail Blazers,Minnesota Timberwolves,1,0,0.3715922645108697,False
+2024-11-13,Orlando Magic,Indiana Pacers,1,1,0.6204427252069059,True
+2024-11-13,New York Knicks,Chicago Bulls,0,1,0.6482470007548536,False
+2024-11-13,Philadelphia 76ers,Cleveland Cavaliers,0,0,0.20608441696107585,True
+2024-11-13,Houston Rockets,LA Clippers,1,1,0.6170920179258232,True
+2024-11-13,San Antonio Spurs,Washington Wizards,1,1,0.7437133327087283,True
+2024-11-13,Oklahoma City Thunder,New Orleans Pelicans,1,1,0.8392468252377729,True
+2024-11-13,Brooklyn Nets,Boston Celtics,0,1,0.5255610749022585,False
+2024-11-13,Milwaukee Bucks,Detroit Pistons,1,1,0.5161139956641954,True
+2024-11-14,Utah Jazz,Dallas Mavericks,1,0,0.26337046057035934,False
+2024-11-15,Toronto Raptors,Detroit Pistons,0,0,0.4689245056319413,True
+2024-11-15,Orlando Magic,Philadelphia 76ers,1,1,0.7578430497409754,True
+2024-11-15,Atlanta Hawks,Washington Wizards,1,1,0.6462527607343943,True
+2024-11-15,Houston Rockets,LA Clippers,1,1,0.6402222886792892,True
+2024-11-15,New Orleans Pelicans,Denver Nuggets,1,0,0.29781128050993694,False
+2024-11-15,Indiana Pacers,Miami Heat,0,1,0.5071673472433708,False
+2024-11-15,Cleveland Cavaliers,Chicago Bulls,1,1,0.7788115060248516,True
+2024-11-15,Golden State Warriors,Memphis Grizzlies,1,1,0.5427834107991927,True
+2024-11-15,Oklahoma City Thunder,Phoenix Suns,1,1,0.7127694978262163,True
+2024-11-15,Sacramento Kings,Minnesota Timberwolves,0,1,0.5551878957505175,False
+2024-11-15,San Antonio Spurs,Los Angeles Lakers,0,1,0.6425951508617629,False
+2024-11-15,New York Knicks,Brooklyn Nets,1,1,0.6841421314624374,True
+2024-11-16,New Orleans Pelicans,Los Angeles Lakers,0,0,0.39622598069373005,True
+2024-11-16,Charlotte Hornets,Milwaukee Bucks,1,1,0.5221149887846989,True
+2024-11-16,Dallas Mavericks,San Antonio Spurs,1,1,0.6738768755240452,True
+2024-11-16,Boston Celtics,Toronto Raptors,1,1,0.8303752375167829,True
+2024-11-16,Sacramento Kings,Utah Jazz,1,1,0.6990998074771131,True
+2024-11-17,Memphis Grizzlies,Denver Nuggets,1,1,0.644779733150813,True
+2024-11-17,Chicago Bulls,Houston Rockets,0,0,0.3669154883267219,True
+2024-11-17,Indiana Pacers,Miami Heat,1,0,0.46261078992688887,False
+2024-11-17,Portland Trail Blazers,Atlanta Hawks,1,0,0.46883429367178686,False
+2024-11-17,LA Clippers,Utah Jazz,1,1,0.7317370340564542,True
+2024-11-17,Washington Wizards,Detroit Pistons,0,0,0.3865039801055298,True
+2024-11-17,Cleveland Cavaliers,Charlotte Hornets,1,1,0.8630422321244915,True
+2024-11-17,New York Knicks,Brooklyn Nets,1,1,0.6462781566801264,True
+2024-11-17,Minnesota Timberwolves,Phoenix Suns,1,1,0.6018427434606307,True
+2024-11-17,Oklahoma City Thunder,Dallas Mavericks,0,1,0.7350451016410985,False
+2024-11-18,Miami Heat,Philadelphia 76ers,1,1,0.6322073367513104,True
+2024-11-18,Toronto Raptors,Indiana Pacers,1,1,0.5866629900851492,True
+2024-11-18,Sacramento Kings,Atlanta Hawks,0,1,0.6722020727194212,False
+2024-11-18,Milwaukee Bucks,Houston Rockets,1,0,0.48332411719059387,False
+2024-11-18,Phoenix Suns,Orlando Magic,0,0,0.4814577270972041,True
+2024-11-18,New York Knicks,Washington Wizards,1,1,0.8166070349046847,True
+2024-11-18,LA Clippers,Golden State Warriors,1,0,0.3887623096086566,False
+2024-11-18,Detroit Pistons,Chicago Bulls,0,1,0.6817042541279047,False
+2024-11-19,San Antonio Spurs,Oklahoma City Thunder,1,0,0.4504245453470642,False
+2024-11-19,Dallas Mavericks,New Orleans Pelicans,1,1,0.7632116667671961,True
+2024-11-19,Boston Celtics,Cleveland Cavaliers,1,0,0.48478120644587375,False
+2024-11-19,Brooklyn Nets,Charlotte Hornets,1,1,0.6563562813012143,True
+2024-11-19,Memphis Grizzlies,Denver Nuggets,0,1,0.7130004155656307,False
+2024-11-19,Los Angeles Lakers,Utah Jazz,1,1,0.7478952844243565,True
+2024-11-20,Oklahoma City Thunder,Portland Trail Blazers,1,1,0.6876031851415931,True
+2024-11-20,Milwaukee Bucks,Chicago Bulls,1,1,0.6996766083761039,True
+2024-11-20,LA Clippers,Orlando Magic,1,1,0.5666011268365675,True
+2024-11-20,Golden State Warriors,Atlanta Hawks,1,1,0.6743629346602615,True
+2024-11-20,Memphis Grizzlies,Philadelphia 76ers,1,1,0.7471371659086374,True
+2024-11-20,Phoenix Suns,New York Knicks,0,0,0.4004150515526945,True
+2024-11-20,Houston Rockets,Indiana Pacers,1,1,0.7215504522248979,True
+2024-11-20,Cleveland Cavaliers,New Orleans Pelicans,1,1,0.8399477519506852,True
+2024-11-21,Los Angeles Lakers,Orlando Magic,0,1,0.6844732972796448,False
+2024-11-21,Toronto Raptors,Minnesota Timberwolves,1,0,0.454937232280865,False
+2024-11-21,Charlotte Hornets,Detroit Pistons,1,0,0.4615654167550063,False
+2024-11-21,San Antonio Spurs,Utah Jazz,1,1,0.7316509862844622,True
+2024-11-22,LA Clippers,Sacramento Kings,1,1,0.576772031700979,True
+2024-11-22,Houston Rockets,Portland Trail Blazers,1,1,0.8258596352939571,True
+2024-11-22,Philadelphia 76ers,Brooklyn Nets,1,0,0.4582267269716626,False
+2024-11-22,New Orleans Pelicans,Golden State Warriors,0,0,0.2565440598724089,True
+2024-11-22,Denver Nuggets,Dallas Mavericks,0,0,0.4910705308870398,True
+2024-11-22,Chicago Bulls,Atlanta Hawks,1,0,0.4363715791970238,False
+2024-11-22,Washington Wizards,Boston Celtics,0,0,0.2206416544134168,True
+2024-11-22,Milwaukee Bucks,Indiana Pacers,1,1,0.6692594540602246,True
+2024-11-23,Houston Rockets,Portland Trail Blazers,0,1,0.8405466246475126,False
+2024-11-23,Orlando Magic,Detroit Pistons,1,1,0.6624465709100168,True
+2024-11-23,San Antonio Spurs,Golden State Warriors,1,1,0.6114614465278826,True
+2024-11-23,Utah Jazz,New York Knicks,1,0,0.3168045353051284,False
+2024-11-23,Milwaukee Bucks,Charlotte Hornets,1,1,0.6992258825475606,True
+2024-11-23,Chicago Bulls,Memphis Grizzlies,0,0,0.2681485012124848,True
+2024-11-23,Los Angeles Lakers,Denver Nuggets,0,1,0.7285131559953539,False
+2024-11-24,Boston Celtics,Minnesota Timberwolves,1,1,0.6577787452966385,True
+2024-11-24,Sacramento Kings,Brooklyn Nets,0,1,0.6442128886740877,False
+2024-11-24,Indiana Pacers,Washington Wizards,1,1,0.784267190542633,True
+2024-11-24,Philadelphia 76ers,LA Clippers,0,0,0.49220871787594594,True
+2024-11-24,Cleveland Cavaliers,Toronto Raptors,1,1,0.8001059098836281,True
+2024-11-24,Miami Heat,Dallas Mavericks,1,0,0.4882048535306018,False
+2024-11-25,Golden State Warriors,Brooklyn Nets,0,1,0.7377524614504343,False
+2024-11-25,Denver Nuggets,New York Knicks,0,1,0.5446733421704676,False
+2024-11-25,Charlotte Hornets,Orlando Magic,0,0,0.4322571038455314,True
+2024-11-25,Memphis Grizzlies,Portland Trail Blazers,1,1,0.7773127629419143,True
+2024-11-25,Sacramento Kings,Oklahoma City Thunder,0,0,0.36476428379217446,True
+2024-11-25,Atlanta Hawks,Dallas Mavericks,0,0,0.45421199426111036,True
+2024-11-25,Boston Celtics,LA Clippers,1,1,0.6611737453881524,True
+2024-11-25,Detroit Pistons,Toronto Raptors,1,1,0.70047954376171,True
+2024-11-25,Indiana Pacers,New Orleans Pelicans,1,1,0.702160194229448,True
+2024-11-26,Miami Heat,Milwaukee Bucks,0,1,0.5914752648902889,False
+2024-11-26,Washington Wizards,Chicago Bulls,0,0,0.3949454618723911,True
+2024-11-26,Phoenix Suns,Los Angeles Lakers,1,0,0.45598495010790424,False
+2024-11-26,Minnesota Timberwolves,Houston Rockets,0,0,0.47105676165804733,True
+2024-11-26,Utah Jazz,San Antonio Spurs,0,1,0.513944394614569,False
+2024-11-27,Washington Wizards,LA Clippers,0,0,0.27865682575701495,True
+2024-11-27,Utah Jazz,Denver Nuggets,0,0,0.3771654500741507,True
+2024-11-27,San Antonio Spurs,Los Angeles Lakers,0,1,0.6582430538373271,False
+2024-11-27,Charlotte Hornets,Miami Heat,0,1,0.5706514377398577,False
+2024-11-27,Orlando Magic,Chicago Bulls,1,1,0.8006555840973824,True
+2024-11-27,Indiana Pacers,Portland Trail Blazers,1,1,0.7690527919668119,True
+2024-11-27,Golden State Warriors,Oklahoma City Thunder,0,0,0.4554540076414329,True
+2024-11-27,Cleveland Cavaliers,Atlanta Hawks,0,1,0.7960574635741803,False
+2024-11-27,New Orleans Pelicans,Toronto Raptors,0,0,0.47860189073209103,True
+2024-11-27,Minnesota Timberwolves,Sacramento Kings,0,1,0.5253382903913113,False
+2024-11-27,Phoenix Suns,Brooklyn Nets,0,0,0.49790267823950485,True
+2024-11-27,Dallas Mavericks,New York Knicks,1,0,0.4796546606782259,False
+2024-11-27,Philadelphia 76ers,Houston Rockets,0,0,0.4014454466789612,True
+2024-11-27,Memphis Grizzlies,Detroit Pistons,1,1,0.694571251794489,True
+2024-11-29,Miami Heat,Toronto Raptors,1,1,0.5956347442357752,True
+2024-11-29,Los Angeles Lakers,Oklahoma City Thunder,0,0,0.4535565774878375,True
+2024-11-29,Atlanta Hawks,Cleveland Cavaliers,1,0,0.3068897607796716,False
+2024-11-29,Charlotte Hornets,New York Knicks,0,0,0.38540477472627993,True
+2024-11-29,Minnesota Timberwolves,LA Clippers,1,1,0.5046796206878698,True
+2024-11-29,Portland Trail Blazers,Sacramento Kings,1,0,0.3883484181165383,False
+2024-11-29,Indiana Pacers,Detroit Pistons,0,1,0.6467334473978752,False
+2024-11-29,Chicago Bulls,Boston Celtics,0,0,0.30159675733684893,True
+2024-11-29,Brooklyn Nets,Orlando Magic,0,0,0.413535952086342,True
+2024-11-29,Memphis Grizzlies,New Orleans Pelicans,1,1,0.8457836833281304,True
+2024-11-30,Utah Jazz,Dallas Mavericks,0,0,0.380792286917757,True
+2024-11-30,Milwaukee Bucks,Washington Wizards,1,1,0.8489541584593983,True
+2024-11-30,Detroit Pistons,Philadelphia 76ers,0,1,0.5810724315896256,False
+2024-11-30,Phoenix Suns,Golden State Warriors,1,1,0.5395498507066102,True
+2024-11-30,Charlotte Hornets,Atlanta Hawks,0,1,0.5129694108741791,False
+2024-12-01,New York Knicks,New Orleans Pelicans,1,1,0.8302739698755454,True
+2024-12-01,Toronto Raptors,Miami Heat,1,0,0.46224387237454156,False
+2024-12-01,Utah Jazz,Los Angeles Lakers,0,0,0.36958395557452345,True
+2024-12-01,Portland Trail Blazers,Dallas Mavericks,0,0,0.39240110974552894,True
+2024-12-01,Houston Rockets,Oklahoma City Thunder,1,1,0.5796409019941062,True
+2024-12-01,Cleveland Cavaliers,Boston Celtics,1,0,0.49245287719690684,False
+2024-12-01,LA Clippers,Denver Nuggets,1,1,0.551600143527301,True
+2024-12-01,Sacramento Kings,San Antonio Spurs,0,0,0.43693355646208226,True
+2024-12-01,Memphis Grizzlies,Indiana Pacers,1,1,0.7530992994419815,True
+2024-12-01,Brooklyn Nets,Orlando Magic,0,0,0.3357978430430655,True
+2024-12-02,Minnesota Timberwolves,Los Angeles Lakers,1,1,0.5605920771547894,True
+2024-12-02,Chicago Bulls,Brooklyn Nets,1,1,0.5659034846497363,True
+2024-12-02,Boston Celtics,Miami Heat,1,1,0.6549312772610375,True
+2024-12-02,Atlanta Hawks,New Orleans Pelicans,1,1,0.7986482933753214,True
+2024-12-03,New York Knicks,Orlando Magic,1,1,0.566409401080392,True
+2024-12-03,Dallas Mavericks,Memphis Grizzlies,1,1,0.6003537400175653,True
+2024-12-03,Charlotte Hornets,Philadelphia 76ers,0,1,0.5073773371709933,False
+2024-12-03,Detroit Pistons,Milwaukee Bucks,0,0,0.4595240993325758,True
+2024-12-03,Sacramento Kings,Houston Rockets,1,0,0.35259693729085284,False
+2024-12-03,Phoenix Suns,San Antonio Spurs,1,0,0.4832609833566227,False
+2024-12-03,Oklahoma City Thunder,Utah Jazz,1,1,0.7926279812974258,True
+2024-12-03,Cleveland Cavaliers,Washington Wizards,1,1,0.8473495132485265,True
+2024-12-03,Denver Nuggets,Golden State Warriors,1,1,0.6513988950157801,True
+2024-12-03,Toronto Raptors,Indiana Pacers,1,1,0.6812333682432318,True
+2024-12-03,LA Clippers,Portland Trail Blazers,1,1,0.7505086968859308,True
+2024-12-04,Milwaukee Bucks,Atlanta Hawks,0,1,0.6484367193558815,False
+2024-12-04,Brooklyn Nets,Indiana Pacers,1,1,0.6938564316053241,True
+2024-12-04,Miami Heat,Los Angeles Lakers,1,1,0.6458041380483559,True
+2024-12-04,Philadelphia 76ers,Orlando Magic,0,0,0.3705840894451608,True
+2024-12-04,LA Clippers,Minnesota Timberwolves,0,1,0.665338909759812,False
+2024-12-04,Boston Celtics,Detroit Pistons,1,1,0.8180132493602469,True
+2024-12-05,New Orleans Pelicans,Phoenix Suns,1,0,0.3602763848903812,False
+2024-12-05,Washington Wizards,Dallas Mavericks,0,0,0.1823106695864254,True
+2024-12-05,New York Knicks,Charlotte Hornets,1,1,0.8119148548782542,True
+2024-12-05,Memphis Grizzlies,Sacramento Kings,1,1,0.7095002927531232,True
+2024-12-05,Cleveland Cavaliers,Denver Nuggets,1,1,0.632439153096496,True
+2024-12-05,Toronto Raptors,Oklahoma City Thunder,0,0,0.40340175621946767,True
+2024-12-05,Golden State Warriors,Houston Rockets,1,0,0.4546425405712957,False
+2024-12-05,San Antonio Spurs,Chicago Bulls,0,1,0.5758962035615012,False
+2024-12-06,Atlanta Hawks,Los Angeles Lakers,1,1,0.6663773052259766,True
+2024-12-06,Philadelphia 76ers,Orlando Magic,1,0,0.382397036298985,False
+2024-12-06,Boston Celtics,Milwaukee Bucks,1,1,0.7077261900643318,True
+2024-12-06,San Antonio Spurs,Sacramento Kings,0,1,0.5943349878449794,False
+2024-12-06,Portland Trail Blazers,Utah Jazz,0,1,0.6256897816619744,False
+2024-12-06,Chicago Bulls,Indiana Pacers,0,1,0.6338306773598805,False
+2024-12-06,Golden State Warriors,Minnesota Timberwolves,0,0,0.4304571237430955,True
+2024-12-07,Washington Wizards,Denver Nuggets,1,0,0.2298819535595036,False
+2024-12-07,Miami Heat,Phoenix Suns,1,1,0.7263756892262389,True
+2024-12-07,Toronto Raptors,Dallas Mavericks,0,0,0.39841378379257697,True
+2024-12-07,Charlotte Hornets,Cleveland Cavaliers,0,0,0.2963613719196291,True
+2024-12-07,New Orleans Pelicans,Oklahoma City Thunder,0,0,0.19004698179562526,True
+2024-12-07,Boston Celtics,Memphis Grizzlies,0,1,0.5912882642431585,False
+2024-12-07,New York Knicks,Detroit Pistons,0,1,0.8202766292638862,False
+2024-12-08,Los Angeles Lakers,Portland Trail Blazers,1,1,0.6370319255912414,True
+2024-12-08,Golden State Warriors,Minnesota Timberwolves,1,0,0.4298429234837918,False
+2024-12-08,Washington Wizards,Memphis Grizzlies,0,0,0.2726300872560292,True
+2024-12-08,LA Clippers,Houston Rockets,0,1,0.5859499039932109,False
+2024-12-08,Orlando Magic,Phoenix Suns,1,1,0.7658597909008182,True
+2024-12-08,Chicago Bulls,Philadelphia 76ers,0,1,0.60681615961413,False
+2024-12-08,Brooklyn Nets,Milwaukee Bucks,0,0,0.46897597012403036,True
+2024-12-08,San Antonio Spurs,New Orleans Pelicans,1,1,0.7664236520754829,True
+2024-12-08,Sacramento Kings,Utah Jazz,1,1,0.6414851030517454,True
+2024-12-08,Indiana Pacers,Charlotte Hornets,0,1,0.7222777815490679,False
+2024-12-08,Atlanta Hawks,Denver Nuggets,0,1,0.6610323135530036,False
+2024-12-08,Miami Heat,Cleveland Cavaliers,1,1,0.5705272051897432,True
+2024-12-09,Toronto Raptors,New York Knicks,0,0,0.3140239940804032,True
+2024-12-10,Oklahoma City Thunder,Dallas Mavericks,1,1,0.5680647393723235,True
+2024-12-10,Milwaukee Bucks,Orlando Magic,1,1,0.5963016030102785,True
+2024-12-11,New York Knicks,Atlanta Hawks,0,1,0.7385471031450818,False
+2024-12-11,Houston Rockets,Golden State Warriors,1,1,0.6644547820822373,True
+2024-12-12,Boston Celtics,Detroit Pistons,1,1,0.7611045538586334,True
+2024-12-12,New Orleans Pelicans,Sacramento Kings,0,0,0.3149193235218091,True
+2024-12-12,Miami Heat,Toronto Raptors,1,1,0.7649447210604524,True
+2024-12-13,Portland Trail Blazers,San Antonio Spurs,0,0,0.39614342356677373,True
+2024-12-13,Minnesota Timberwolves,Los Angeles Lakers,1,1,0.7197540558917631,True
+2024-12-13,Utah Jazz,Phoenix Suns,0,0,0.4339458473044039,True
+2024-12-13,Cleveland Cavaliers,Washington Wizards,1,1,0.8780412324177187,True
+2024-12-13,Denver Nuggets,LA Clippers,1,1,0.6104695620420749,True
+2024-12-13,Chicago Bulls,Charlotte Hornets,1,1,0.6765851448867567,True
+2024-12-13,Philadelphia 76ers,Indiana Pacers,0,1,0.5990938668378305,False
+2024-12-13,Memphis Grizzlies,Brooklyn Nets,1,1,0.7273852454630764,True
+2024-12-15,San Antonio Spurs,Minnesota Timberwolves,0,0,0.464247164428064,True
+2024-12-15,Los Angeles Lakers,Memphis Grizzlies,1,0,0.29207776607891467,False
+2024-12-15,Phoenix Suns,Portland Trail Blazers,1,1,0.757636488406316,True
+2024-12-15,Indiana Pacers,New Orleans Pelicans,1,1,0.6892525498680271,True
+2024-12-15,Orlando Magic,New York Knicks,0,1,0.523613049038796,False
+2024-12-15,Washington Wizards,Boston Celtics,0,0,0.16119154680621745,True
+2024-12-15,Golden State Warriors,Dallas Mavericks,0,0,0.4223717378310131,True
+2024-12-16,Charlotte Hornets,Philadelphia 76ers,0,0,0.37726485037474866,True
+2024-12-16,LA Clippers,Utah Jazz,1,1,0.7129142643217983,True
+2024-12-16,Detroit Pistons,Miami Heat,1,0,0.33478091294794243,False
+2024-12-16,Brooklyn Nets,Cleveland Cavaliers,0,0,0.39464692054796807,True
+2024-12-16,Toronto Raptors,Chicago Bulls,0,0,0.40199478455817594,True
+2024-12-16,Sacramento Kings,Denver Nuggets,0,1,0.5599276301803456,False
+2024-12-19,Dallas Mavericks,LA Clippers,0,1,0.6255085604786388,False
+2024-12-19,Toronto Raptors,Brooklyn Nets,0,1,0.5357303565237801,False
+2024-12-19,Houston Rockets,New Orleans Pelicans,1,1,0.7239653206825132,True
+2024-12-19,Phoenix Suns,Indiana Pacers,0,1,0.6558357702015899,False
+2024-12-19,Boston Celtics,Chicago Bulls,0,1,0.6753611499947493,False
+2024-12-19,Washington Wizards,Charlotte Hornets,1,0,0.44774690177858945,False
+2024-12-19,Orlando Magic,Oklahoma City Thunder,0,0,0.4235052078582326,True
+2024-12-19,San Antonio Spurs,Atlanta Hawks,1,0,0.4501395320639752,False
+2024-12-19,Sacramento Kings,Los Angeles Lakers,0,1,0.735937812574744,False
+2024-12-19,Portland Trail Blazers,Denver Nuggets,1,0,0.3284876442560838,False
+2024-12-19,Minnesota Timberwolves,New York Knicks,0,1,0.5122515325706413,False
+2024-12-19,Memphis Grizzlies,Golden State Warriors,1,1,0.7445711436669942,True
+2024-12-19,Detroit Pistons,Utah Jazz,0,1,0.6403175001873863,False
+2024-12-20,Miami Heat,Oklahoma City Thunder,0,1,0.6441193793868555,False
+2024-12-20,Philadelphia 76ers,Charlotte Hornets,1,1,0.7086871513119277,True
+2024-12-20,Cleveland Cavaliers,Milwaukee Bucks,1,1,0.6110353858988942,True
+2024-12-21,Phoenix Suns,Detroit Pistons,0,1,0.6927485945526569,False
+2024-12-21,San Antonio Spurs,Portland Trail Blazers,1,1,0.6401549925460412,True
+2024-12-21,New Orleans Pelicans,New York Knicks,0,0,0.2544050037428672,True
+2024-12-21,Dallas Mavericks,LA Clippers,1,1,0.5828172742974675,True
+2024-12-21,Chicago Bulls,Boston Celtics,0,0,0.4335197399178981,True
+2024-12-21,Orlando Magic,Miami Heat,1,1,0.5807398214867053,True
+2024-12-21,Brooklyn Nets,Utah Jazz,0,1,0.633618823071385,False
+2024-12-21,Sacramento Kings,Los Angeles Lakers,0,1,0.677078584295045,False
+2024-12-21,Milwaukee Bucks,Washington Wizards,1,1,0.7435127565155191,True
+2024-12-21,Cleveland Cavaliers,Philadelphia 76ers,1,1,0.6685181417089726,True
+2024-12-21,Minnesota Timberwolves,Golden State Warriors,0,1,0.7170172854700533,False
+2024-12-21,Atlanta Hawks,Memphis Grizzlies,0,0,0.37232956416979995,True
+2024-12-22,Sacramento Kings,Indiana Pacers,0,1,0.5327550630332339,False
+2024-12-22,New Orleans Pelicans,Denver Nuggets,0,0,0.2552121999699381,True
+2024-12-22,Toronto Raptors,Houston Rockets,0,0,0.4698332315593922,True
+2024-12-23,New York Knicks,Toronto Raptors,1,1,0.7987801462097075,True
+2024-12-23,Dallas Mavericks,Portland Trail Blazers,1,1,0.733183242778045,True
+2024-12-23,Denver Nuggets,Phoenix Suns,1,1,0.5903644474063643,True
+2024-12-23,Charlotte Hornets,Houston Rockets,0,1,0.5169669366125481,False
+2024-12-23,Los Angeles Lakers,Detroit Pistons,0,1,0.5615140337042294,False
+2024-12-23,Chicago Bulls,Milwaukee Bucks,0,0,0.48096150285394906,True
+2024-12-23,Miami Heat,Brooklyn Nets,1,1,0.7259807811719967,True
+2024-12-23,Philadelphia 76ers,San Antonio Spurs,1,1,0.5666657148955726,True
+2024-12-23,Orlando Magic,Boston Celtics,1,0,0.3820689131819222,False
+2024-12-23,Atlanta Hawks,Minnesota Timberwolves,1,0,0.44974270125419114,False
+2024-12-23,Golden State Warriors,Indiana Pacers,0,0,0.481550780198254,True
+2024-12-23,Memphis Grizzlies,LA Clippers,0,1,0.7269107605804451,False
+2024-12-23,Oklahoma City Thunder,Washington Wizards,1,1,0.8630843193447713,True
+2024-12-23,Cleveland Cavaliers,Utah Jazz,1,1,0.8496769916568762,True
+2024-12-25,Golden State Warriors,Los Angeles Lakers,0,1,0.5264143648422802,False
+2024-12-25,Dallas Mavericks,Minnesota Timberwolves,0,1,0.5659234268312523,False
+2024-12-25,Phoenix Suns,Denver Nuggets,1,0,0.4525054302959282,False
+2024-12-25,New York Knicks,San Antonio Spurs,1,1,0.7296311212475037,True
+2024-12-25,Boston Celtics,Philadelphia 76ers,0,1,0.6090954177344381,False
+2024-12-26,Portland Trail Blazers,Utah Jazz,1,1,0.5555941424629894,True
+2024-12-26,Orlando Magic,Miami Heat,0,0,0.4716437620118833,True
+2024-12-26,Atlanta Hawks,Chicago Bulls,1,1,0.502552909899407,True
+2024-12-26,Sacramento Kings,Detroit Pistons,0,1,0.607520865489502,False
+2024-12-26,Milwaukee Bucks,Brooklyn Nets,0,1,0.7288095407105581,False
+2024-12-26,Washington Wizards,Charlotte Hornets,1,0,0.4746212070984333,False
+2024-12-26,New Orleans Pelicans,Houston Rockets,0,0,0.40744732544687734,True
+2024-12-26,Indiana Pacers,Oklahoma City Thunder,0,0,0.4578945979492632,True
+2024-12-26,Memphis Grizzlies,Toronto Raptors,1,1,0.7776087573975538,True
+2024-12-27,LA Clippers,Golden State Warriors,1,1,0.6750418486349556,True
+2024-12-27,Phoenix Suns,Dallas Mavericks,0,0,0.49285717770380755,True
+2024-12-27,New Orleans Pelicans,Memphis Grizzlies,0,0,0.2520955745740573,True
+2024-12-27,Boston Celtics,Indiana Pacers,1,1,0.5731006420542,True
+2024-12-27,Denver Nuggets,Cleveland Cavaliers,0,0,0.3903742167119923,True
+2024-12-27,Houston Rockets,Minnesota Timberwolves,0,0,0.48556511578938305,True
+2024-12-27,Brooklyn Nets,San Antonio Spurs,0,0,0.39670093604844453,True
+2024-12-27,Orlando Magic,New York Knicks,0,0,0.2507846191940965,True
+2024-12-28,Atlanta Hawks,Miami Heat,1,0,0.4981355475399724,False
+2024-12-28,Utah Jazz,Philadelphia 76ers,0,0,0.3480425186905268,True
+2024-12-28,Denver Nuggets,Detroit Pistons,1,1,0.5217517497203777,True
+2024-12-28,Chicago Bulls,Milwaukee Bucks,1,0,0.43143497505634193,False
+2024-12-28,Charlotte Hornets,Oklahoma City Thunder,0,0,0.2588993886998281,True
+2024-12-28,Washington Wizards,New York Knicks,0,0,0.26661469706903007,True
+2024-12-28,Los Angeles Lakers,Sacramento Kings,1,0,0.4174189828071823,False
+2024-12-28,Golden State Warriors,Phoenix Suns,1,1,0.5196377415108973,True
+2024-12-28,Portland Trail Blazers,Dallas Mavericks,1,0,0.4474043216249846,False
+2024-12-29,Orlando Magic,Brooklyn Nets,1,1,0.5835857449647328,True
+2024-12-29,Minnesota Timberwolves,San Antonio Spurs,1,1,0.5952767851042344,True
+2024-12-29,Toronto Raptors,Atlanta Hawks,0,0,0.48750334774036136,True
+2024-12-29,Oklahoma City Thunder,Memphis Grizzlies,1,0,0.42404677053928425,False
+2024-12-29,Boston Celtics,Indiana Pacers,0,1,0.5717614353244139,False
+2024-12-29,Houston Rockets,Miami Heat,0,1,0.6510047126953521,False
+2024-12-30,Golden State Warriors,Cleveland Cavaliers,0,0,0.24350022212076966,True
+2024-12-30,Utah Jazz,Denver Nuggets,0,0,0.31910624781320746,True
+2024-12-30,Sacramento Kings,Dallas Mavericks,1,0,0.4731253604619326,False
+2024-12-30,Charlotte Hornets,Chicago Bulls,0,0,0.4124198120276098,True
+2024-12-30,New Orleans Pelicans,LA Clippers,0,0,0.3884396159552935,True
+2024-12-30,Washington Wizards,New York Knicks,0,0,0.26354330700712525,True
+2024-12-30,Portland Trail Blazers,Philadelphia 76ers,0,0,0.4257207466901556,True
+2024-12-31,Los Angeles Lakers,Cleveland Cavaliers,0,0,0.3747727366535044,True
+2024-12-31,Indiana Pacers,Milwaukee Bucks,0,1,0.5424116409490428,False
+2024-12-31,Boston Celtics,Toronto Raptors,1,1,0.7986157184323859,True
+2024-12-31,San Antonio Spurs,LA Clippers,1,1,0.6074593174646228,True
+2024-12-31,Oklahoma City Thunder,Minnesota Timberwolves,1,1,0.7116750162238941,True
+2024-12-31,Phoenix Suns,Memphis Grizzlies,0,0,0.38954040870837786,True
+2025-01-01,Detroit Pistons,Orlando Magic,1,1,0.5514521697974866,True
+2025-01-01,Toronto Raptors,Brooklyn Nets,1,0,0.32157138204047403,False
+2025-01-01,Sacramento Kings,Philadelphia 76ers,1,1,0.5159796483186573,True
+2025-01-01,Washington Wizards,Chicago Bulls,1,0,0.3996671828585376,False
+2025-01-01,Denver Nuggets,Atlanta Hawks,1,1,0.6209567545216182,True
+2025-01-01,Houston Rockets,Dallas Mavericks,1,1,0.6193023200706925,True
+2025-01-01,Miami Heat,New Orleans Pelicans,1,1,0.7027864513606782,True
+2025-01-01,New York Knicks,Utah Jazz,1,1,0.7766624552184664,True
+2025-01-02,Miami Heat,Indiana Pacers,0,0,0.42617347481233847,True
+2025-01-02,Milwaukee Bucks,Brooklyn Nets,0,1,0.7646389901742204,False
+2025-01-02,Los Angeles Lakers,Portland Trail Blazers,1,1,0.7244157892263323,True
+2025-01-02,Minnesota Timberwolves,Boston Celtics,0,0,0.32852401083526794,True
+2025-01-02,Oklahoma City Thunder,LA Clippers,1,1,0.7724214165609531,True
+2025-01-02,Golden State Warriors,Philadelphia 76ers,1,1,0.5130784203849179,True
+2025-01-03,Los Angeles Lakers,Atlanta Hawks,1,1,0.5177525388501224,True
+2025-01-03,Detroit Pistons,Charlotte Hornets,1,1,0.6395412972101806,True
+2025-01-03,Toronto Raptors,Orlando Magic,0,0,0.43598284196282944,True
+2025-01-03,Oklahoma City Thunder,New York Knicks,1,0,0.4837455109527271,False
+2025-01-03,Houston Rockets,Boston Celtics,0,0,0.47568351694217076,True
+2025-01-03,New Orleans Pelicans,Washington Wizards,1,1,0.5889628564305371,True
+2025-01-03,Denver Nuggets,San Antonio Spurs,0,1,0.5835700927106463,False
+2025-01-03,Dallas Mavericks,Cleveland Cavaliers,0,0,0.30838432355082146,True
+2025-01-03,Sacramento Kings,Memphis Grizzlies,1,0,0.4589085957166325,False
+2025-01-04,Detroit Pistons,Minnesota Timberwolves,1,0,0.48638123124961297,False
+2025-01-04,Indiana Pacers,Phoenix Suns,1,1,0.6589813896541525,True
+2025-01-04,Brooklyn Nets,Philadelphia 76ers,0,0,0.43688991440772723,True
+2025-01-04,Chicago Bulls,New York Knicks,1,0,0.40876644696946024,False
+2025-01-04,San Antonio Spurs,Denver Nuggets,0,1,0.5716598912020837,False
+2025-01-04,Miami Heat,Utah Jazz,0,1,0.7007393843251837,False
+2025-01-04,Milwaukee Bucks,Portland Trail Blazers,0,1,0.7240909931355309,False
+2025-01-04,Golden State Warriors,Memphis Grizzlies,1,1,0.5432808206596847,True
+2025-01-04,LA Clippers,Atlanta Hawks,1,1,0.6166229364171084,True
+2025-01-05,Oklahoma City Thunder,Boston Celtics,1,1,0.5285276448163928,True
+2025-01-05,Washington Wizards,New Orleans Pelicans,0,1,0.5983412897652404,False
+2025-01-05,Houston Rockets,Los Angeles Lakers,1,1,0.5140370722299833,True
+2025-01-05,Orlando Magic,Utah Jazz,0,1,0.6693251850643978,False
+2025-01-05,Cleveland Cavaliers,Charlotte Hornets,1,1,0.861297178347669,True
+2025-01-05,Golden State Warriors,Sacramento Kings,0,0,0.48872656740760967,True
+2025-01-06,Toronto Raptors,Milwaukee Bucks,0,0,0.2916037461005394,True
+2025-01-06,Philadelphia 76ers,Phoenix Suns,0,1,0.6567704450313337,False
+2025-01-06,Minnesota Timberwolves,LA Clippers,1,1,0.5228531473197935,True
+2025-01-06,Memphis Grizzlies,Dallas Mavericks,1,1,0.570656973774674,True
+2025-01-06,New York Knicks,Orlando Magic,0,1,0.7781594667667754,False
+2025-01-06,Brooklyn Nets,Indiana Pacers,0,0,0.2593159737830738,True
+2025-01-06,Chicago Bulls,San Antonio Spurs,1,1,0.5133011318428988,True
+2025-01-06,Sacramento Kings,Miami Heat,1,1,0.5968824788047611,True
+2025-01-06,Detroit Pistons,Portland Trail Blazers,1,1,0.6952355261474754,True
+2025-01-07,Dallas Mavericks,Los Angeles Lakers,1,0,0.3916688711051321,False
+2025-01-07,New Orleans Pelicans,Minnesota Timberwolves,0,1,0.6245573437366829,False
+2025-01-07,Charlotte Hornets,Phoenix Suns,1,1,0.508512199765638,True
+2025-01-07,Utah Jazz,Atlanta Hawks,0,1,0.510597046697742,False
+2025-01-07,Denver Nuggets,Boston Celtics,0,0,0.49009563484658203,True
+2025-01-07,Washington Wizards,Houston Rockets,0,0,0.43947523752332085,True
+2025-01-07,Golden State Warriors,Miami Heat,0,1,0.6568657724978036,False
+2025-01-08,Denver Nuggets,LA Clippers,1,1,0.5287180483424522,True
+2025-01-08,Milwaukee Bucks,San Antonio Spurs,1,1,0.5220750999162111,True
+2025-01-08,New Orleans Pelicans,Portland Trail Blazers,0,1,0.514589348746525,False
+2025-01-08,Cleveland Cavaliers,Oklahoma City Thunder,1,1,0.5978580030464403,True
+2025-01-08,Philadelphia 76ers,Washington Wizards,1,1,0.8037989124310043,True
+2025-01-08,Indiana Pacers,Chicago Bulls,1,1,0.6466351541688923,True
+2025-01-08,New York Knicks,Toronto Raptors,1,1,0.8305156400075709,True
+2025-01-08,Brooklyn Nets,Detroit Pistons,0,0,0.36241376418683074,True
+2025-01-09,Orlando Magic,Minnesota Timberwolves,0,1,0.5386934621984121,False
+2025-01-09,Utah Jazz,Miami Heat,0,0,0.46418912581899646,True
+2025-01-09,Dallas Mavericks,Portland Trail Blazers,1,1,0.7317669291834846,True
+2025-01-09,Phoenix Suns,Atlanta Hawks,1,1,0.5353325579973922,True
+2025-01-09,Detroit Pistons,Golden State Warriors,0,1,0.5776017949260723,False
+2025-01-09,Cleveland Cavaliers,Toronto Raptors,1,1,0.9133105898878706,True
+2025-01-09,Memphis Grizzlies,Houston Rockets,0,1,0.5261249191143609,False
+2025-01-10,Orlando Magic,Milwaukee Bucks,0,0,0.3264419659814139,True
+2025-01-10,Indiana Pacers,Golden State Warriors,1,1,0.7659487838216713,True
+2025-01-10,Philadelphia 76ers,New Orleans Pelicans,0,1,0.6673173336430848,False
+2025-01-10,Chicago Bulls,Washington Wizards,1,1,0.6853324780290567,True
+2025-01-10,Boston Celtics,Sacramento Kings,0,1,0.6341658962246912,False
+2025-01-10,Denver Nuggets,Brooklyn Nets,1,1,0.7819033880150835,True
+2025-01-10,New York Knicks,Oklahoma City Thunder,0,0,0.46973905399894994,True
+2025-01-11,Phoenix Suns,Utah Jazz,1,1,0.5393679329144255,True
+2025-01-11,Portland Trail Blazers,Miami Heat,0,0,0.45716920585445814,True
+2025-01-11,Detroit Pistons,Toronto Raptors,1,1,0.8306181040065707,True
+2025-01-11,Minnesota Timberwolves,Memphis Grizzlies,0,1,0.5703028429917132,False
+2025-01-12,Phoenix Suns,Charlotte Hornets,1,1,0.5965954272624985,True
+2025-01-12,Boston Celtics,New Orleans Pelicans,1,1,0.6363433181080846,True
+2025-01-12,Cleveland Cavaliers,Indiana Pacers,0,1,0.64061816825151,False
+2025-01-12,Washington Wizards,Oklahoma City Thunder,0,0,0.20218163192007824,True
+2025-01-12,Chicago Bulls,Sacramento Kings,0,0,0.4767455931732074,True
+2025-01-12,Dallas Mavericks,Denver Nuggets,0,0,0.45279449870598315,True
+2025-01-12,Orlando Magic,Philadelphia 76ers,1,0,0.42396305071610846,False
+2025-01-12,New York Knicks,Milwaukee Bucks,1,0,0.4514924210767648,False
+2025-01-12,Utah Jazz,Brooklyn Nets,1,1,0.5278669417146823,True
+2025-01-13,Houston Rockets,Memphis Grizzlies,1,1,0.6212879929347753,True
+2025-01-13,Washington Wizards,Minnesota Timberwolves,0,0,0.24695973693175768,True
+2025-01-13,Toronto Raptors,Golden State Warriors,1,0,0.3700424051869012,False
+2025-01-13,New York Knicks,Detroit Pistons,0,0,0.4528839375429821,True
+2025-01-13,Los Angeles Lakers,San Antonio Spurs,0,1,0.5405165880377001,False
+2025-01-13,LA Clippers,Miami Heat,1,0,0.42242306792015777,False
+2025-01-14,Philadelphia 76ers,Oklahoma City Thunder,0,0,0.3462593141017246,True
+2025-01-14,Dallas Mavericks,Denver Nuggets,0,0,0.3557509641182269,True
+2025-01-14,Indiana Pacers,Cleveland Cavaliers,0,0,0.4754681092210275,True
+2025-01-14,Chicago Bulls,New Orleans Pelicans,0,1,0.6005296829736331,False
+2025-01-14,Portland Trail Blazers,Brooklyn Nets,0,1,0.603537480826961,False
+2025-01-14,Milwaukee Bucks,Sacramento Kings,1,0,0.4512414048706735,False
+2025-01-14,Atlanta Hawks,Phoenix Suns,1,1,0.5007766631571174,True
+2025-01-15,LA Clippers,Brooklyn Nets,1,1,0.6766440622749247,True
+2025-01-15,Chicago Bulls,Atlanta Hawks,0,1,0.6313513538993896,False
+2025-01-15,Toronto Raptors,Boston Celtics,1,0,0.26934147673106806,False
+2025-01-15,Minnesota Timberwolves,Golden State Warriors,0,1,0.6045361886914187,False
+2025-01-15,Denver Nuggets,Houston Rockets,0,1,0.5522951987136644,False
+2025-01-15,Milwaukee Bucks,Orlando Magic,1,1,0.5145369342166523,True
+2025-01-15,New Orleans Pelicans,Dallas Mavericks,1,1,0.6247394941979393,True
+2025-01-15,San Antonio Spurs,Memphis Grizzlies,0,1,0.6863593079605688,False
+2025-01-15,Los Angeles Lakers,Miami Heat,1,1,0.5186508374998108,True
+2025-01-15,Utah Jazz,Charlotte Hornets,0,1,0.6007338591320016,False
+2025-01-15,Philadelphia 76ers,New York Knicks,0,0,0.39727187104226885,True
+2025-01-16,Sacramento Kings,Houston Rockets,1,1,0.590623577727621,True
+2025-01-16,Washington Wizards,Phoenix Suns,0,0,0.33420243433189506,True
+2025-01-16,Portland Trail Blazers,LA Clippers,0,1,0.525017794893192,False
+2025-01-16,Detroit Pistons,Indiana Pacers,0,0,0.4920938538017378,True
+2025-01-16,Oklahoma City Thunder,Cleveland Cavaliers,1,1,0.6626505277086313,True
+2025-01-17,San Antonio Spurs,Memphis Grizzlies,0,1,0.6764885267532404,False
+2025-01-17,Milwaukee Bucks,Toronto Raptors,1,1,0.7569360027928932,True
+2025-01-17,Los Angeles Lakers,Brooklyn Nets,1,1,0.7286510072016854,True
+2025-01-17,Dallas Mavericks,Oklahoma City Thunder,1,0,0.28332472915949714,False
+2025-01-17,Chicago Bulls,Charlotte Hornets,0,1,0.6270201697899314,False
+2025-01-17,Miami Heat,Denver Nuggets,0,0,0.3898432692738765,True
+2025-01-17,Boston Celtics,Orlando Magic,1,1,0.7006403630912797,True
+2025-01-17,New Orleans Pelicans,Utah Jazz,1,1,0.6125673718042951,True
+2025-01-17,New York Knicks,Minnesota Timberwolves,0,1,0.5727970099285005,False
+2025-01-18,Boston Celtics,Atlanta Hawks,0,1,0.5840729083159766,False
+2025-01-18,Portland Trail Blazers,Houston Rockets,0,0,0.28297450581284966,True
+2025-01-18,Minnesota Timberwolves,Cleveland Cavaliers,0,0,0.3872404266199085,True
+2025-01-18,Detroit Pistons,Phoenix Suns,0,1,0.5437558506978334,False
+2025-01-18,Golden State Warriors,Washington Wizards,1,1,0.7177209453726918,True
+2025-01-18,Indiana Pacers,Philadelphia 76ers,1,1,0.7352994304855068,True
+2025-01-19,LA Clippers,Los Angeles Lakers,1,1,0.6460876096513387,True
+2025-01-19,Portland Trail Blazers,Chicago Bulls,1,0,0.29572156005986344,False
+2025-01-19,Miami Heat,San Antonio Spurs,1,0,0.4986203513580472,False
+2025-01-19,Orlando Magic,Denver Nuggets,0,0,0.3226146442209491,True
+2025-01-19,Oklahoma City Thunder,Brooklyn Nets,1,1,0.8835572254033661,True
+2025-01-19,Sacramento Kings,Washington Wizards,1,1,0.8705682935775834,True
+2025-01-19,Milwaukee Bucks,Philadelphia 76ers,1,1,0.7677668429334598,True
+2025-01-20,Charlotte Hornets,Dallas Mavericks,1,1,0.5565747839454765,True
+2025-01-20,LA Clippers,Chicago Bulls,0,1,0.7418551791597415,False
+2025-01-20,Cleveland Cavaliers,Phoenix Suns,1,1,0.5688479185200239,True
+2025-01-20,Memphis Grizzlies,Minnesota Timberwolves,1,0,0.47713217555776155,False
+2025-01-20,New York Knicks,Atlanta Hawks,1,1,0.5371006457545369,True
+2025-01-20,Houston Rockets,Detroit Pistons,0,1,0.5995946733218502,False
+2025-01-20,New Orleans Pelicans,Utah Jazz,1,1,0.6683673759086071,True
+2025-01-20,Golden State Warriors,Boston Celtics,0,0,0.4039199641751328,True
+2025-01-21,Denver Nuggets,Philadelphia 76ers,1,1,0.6911336536421078,True
+2025-01-21,Miami Heat,Portland Trail Blazers,0,1,0.6403954035855662,False
+2025-01-21,Los Angeles Lakers,Washington Wizards,1,1,0.7955656011800989,True
+2025-01-21,Brooklyn Nets,New York Knicks,0,0,0.3598168850907826,True
+2025-01-21,Toronto Raptors,Orlando Magic,1,1,0.556701935405441,True
+2025-01-22,Atlanta Hawks,Detroit Pistons,0,0,0.4823789503207981,True
+2025-01-22,Sacramento Kings,Golden State Warriors,1,1,0.7351883097032069,True
+2025-01-22,Brooklyn Nets,Phoenix Suns,0,0,0.24146570573393883,True
+2025-01-22,Houston Rockets,Cleveland Cavaliers,1,1,0.5363637435456423,True
+2025-01-22,LA Clippers,Boston Celtics,0,1,0.5246157716752924,False
+2025-01-22,Oklahoma City Thunder,Utah Jazz,1,1,0.8094966196550571,True
+2025-01-22,Memphis Grizzlies,Charlotte Hornets,1,1,0.6379088689855575,True
+2025-01-22,Dallas Mavericks,Minnesota Timberwolves,0,0,0.4448687988015191,True
+2025-01-23,Denver Nuggets,Sacramento Kings,1,1,0.6693327663822821,True
+2025-01-23,Milwaukee Bucks,Miami Heat,1,1,0.6988024249419256,True
+2025-01-23,Orlando Magic,Portland Trail Blazers,0,1,0.5219892676232575,False
+2025-01-23,Oklahoma City Thunder,Dallas Mavericks,0,1,0.8034230738467564,False
+2025-01-23,Golden State Warriors,Chicago Bulls,1,0,0.37277936209904206,False
+2025-01-23,Los Angeles Lakers,Boston Celtics,1,1,0.5591632106682065,True
+2025-01-23,Atlanta Hawks,Toronto Raptors,0,0,0.49751080298937633,True
+2025-01-23,LA Clippers,Washington Wizards,1,1,0.8066767444531872,True
+2025-01-24,Charlotte Hornets,Portland Trail Blazers,0,1,0.610493023851685,False
+2025-01-24,Memphis Grizzlies,New Orleans Pelicans,1,1,0.5453780208966093,True
+2025-01-24,Philadelphia 76ers,Cleveland Cavaliers,1,0,0.38373127347585856,False
+2025-01-25,Phoenix Suns,Washington Wizards,1,1,0.8288535035173261,True
+2025-01-25,Minnesota Timberwolves,Denver Nuggets,1,0,0.37869566891586987,False
+2025-01-25,Dallas Mavericks,Boston Celtics,0,0,0.4760060857726145,True
+2025-01-25,Golden State Warriors,Los Angeles Lakers,0,0,0.44323126038641253,True
+2025-01-25,New York Knicks,Sacramento Kings,1,0,0.4456589161094112,False
+2025-01-25,Atlanta Hawks,Toronto Raptors,0,1,0.5943301933109997,False
+2025-01-25,Chicago Bulls,Philadelphia 76ers,0,1,0.6386030007228428,False
+2025-01-25,Orlando Magic,Detroit Pistons,1,0,0.32653787461970185,False
+2025-01-25,Brooklyn Nets,Miami Heat,0,0,0.3483236571047349,True
+2025-01-25,Memphis Grizzlies,Utah Jazz,1,1,0.6063853413753673,True
+2025-01-25,LA Clippers,Milwaukee Bucks,1,1,0.5151916784117342,True
+2025-01-25,Cleveland Cavaliers,Houston Rockets,0,0,0.4795052456711639,True
+2025-01-25,Charlotte Hornets,New Orleans Pelicans,1,0,0.44790089487285595,False
+2025-01-26,Portland Trail Blazers,Oklahoma City Thunder,0,0,0.3077767404820174,True
+2025-01-27,Chicago Bulls,Denver Nuggets,1,0,0.300864834200041,False
+2025-01-27,Minnesota Timberwolves,Atlanta Hawks,1,1,0.6524016344643309,True
+2025-01-27,Cleveland Cavaliers,Detroit Pistons,1,1,0.547383919707944,True
+2025-01-27,Miami Heat,Orlando Magic,1,1,0.6123471542509781,True
+2025-01-27,New York Knicks,Memphis Grizzlies,1,0,0.49272535291960656,False
+2025-01-27,Brooklyn Nets,Sacramento Kings,0,0,0.29639035002668584,True
+2025-01-27,Utah Jazz,Milwaukee Bucks,0,0,0.31796950181084455,True
+2025-01-27,Phoenix Suns,LA Clippers,1,1,0.5443193933935763,True
+2025-01-27,Boston Celtics,Houston Rockets,0,1,0.5661055290751389,False
+2025-01-27,Toronto Raptors,New Orleans Pelicans,1,1,0.6066681923674851,True
+2025-01-27,Charlotte Hornets,Los Angeles Lakers,0,1,0.5322738160397261,False
+2025-01-27,Dallas Mavericks,Washington Wizards,1,1,0.74636496978608,True
+2025-01-28,Portland Trail Blazers,Milwaukee Bucks,1,0,0.3784075835139747,False
+2025-01-28,Golden State Warriors,Utah Jazz,1,1,0.712668329156814,True
+2025-01-28,Atlanta Hawks,Houston Rockets,0,0,0.43421686819105043,True
+2025-01-28,Philadelphia 76ers,Los Angeles Lakers,1,1,0.5269040920831719,True
+2025-01-29,Phoenix Suns,Minnesota Timberwolves,0,1,0.5112035832235737,False
+2025-01-29,Indiana Pacers,Detroit Pistons,1,1,0.7238016123426139,True
+2025-01-29,San Antonio Spurs,LA Clippers,0,0,0.36466050002840766,True
+2025-01-29,Philadelphia 76ers,Sacramento Kings,1,0,0.3856707418346411,False
+2025-01-29,New York Knicks,Denver Nuggets,1,1,0.5855694401589928,True
+2025-01-29,New Orleans Pelicans,Dallas Mavericks,0,1,0.564418785090482,False
+2025-01-29,Golden State Warriors,Oklahoma City Thunder,1,0,0.30515922130219153,False
+2025-01-29,Boston Celtics,Chicago Bulls,1,1,0.6623436501203607,True
+2025-01-29,Miami Heat,Cleveland Cavaliers,0,0,0.47168840771006915,True
+2025-01-29,Washington Wizards,Toronto Raptors,0,0,0.24976345826986923,True
+2025-01-29,Charlotte Hornets,Brooklyn Nets,0,1,0.7479588042892864,False
+2025-01-30,Memphis Grizzlies,Houston Rockets,1,1,0.5823090245753102,True
+2025-01-30,Utah Jazz,Minnesota Timberwolves,0,0,0.40063874997409726,True
+2025-01-30,Cleveland Cavaliers,Atlanta Hawks,1,1,0.6236051481373112,True
+2025-01-30,Portland Trail Blazers,Orlando Magic,1,1,0.6026347466867787,True
+2025-01-30,Washington Wizards,Los Angeles Lakers,0,0,0.19994452214563643,True
+2025-01-31,New Orleans Pelicans,Boston Celtics,0,0,0.4235778409727369,True
+2025-01-31,Philadelphia 76ers,Denver Nuggets,0,1,0.5154175539179724,False
+2025-01-31,Charlotte Hornets,LA Clippers,0,0,0.3880037540081501,True
+2025-01-31,San Antonio Spurs,Milwaukee Bucks,1,0,0.33870036710856893,False
+2025-01-31,Toronto Raptors,Chicago Bulls,0,1,0.7682327319790175,False
+2025-01-31,Detroit Pistons,Dallas Mavericks,1,1,0.5071401423072732,True
+2025-01-31,Golden State Warriors,Phoenix Suns,0,1,0.5602511583747067,False
+2025-02-01,Charlotte Hornets,Denver Nuggets,0,0,0.4768265186458554,True
+2025-02-01,Oklahoma City Thunder,Sacramento Kings,1,1,0.7163081819228462,True
+2025-02-01,Utah Jazz,Orlando Magic,1,1,0.5664026935369402,True
+2025-02-01,Indiana Pacers,Atlanta Hawks,1,1,0.7944255611458955,True
+2025-02-01,Minnesota Timberwolves,Washington Wizards,0,1,0.8453039583934235,False
+2025-02-01,New York Knicks,Los Angeles Lakers,0,1,0.6035413167522706,False
+2025-02-01,Houston Rockets,Brooklyn Nets,0,1,0.6635321106144637,False
+2025-02-01,Portland Trail Blazers,Phoenix Suns,1,1,0.5521157684546286,True
+2025-02-01,San Antonio Spurs,Miami Heat,0,0,0.4440955552037823,True
+2025-02-02,Toronto Raptors,LA Clippers,1,1,0.5317179495618306,True
+2025-02-02,Milwaukee Bucks,Memphis Grizzlies,0,1,0.6009309023522331,False
+2025-02-02,Philadelphia 76ers,Boston Celtics,0,0,0.43957951994672073,True
+2025-02-02,Cleveland Cavaliers,Dallas Mavericks,1,1,0.6970888777608387,True
+2025-02-02,Detroit Pistons,Chicago Bulls,1,1,0.5880426539900135,True
+2025-02-03,Utah Jazz,Indiana Pacers,0,0,0.24881705738153262,True
+2025-02-03,Detroit Pistons,Atlanta Hawks,0,1,0.5704397346755252,False
+2025-02-03,Memphis Grizzlies,San Antonio Spurs,1,1,0.6078534620867423,True
+2025-02-03,Golden State Warriors,Orlando Magic,1,1,0.7171590373446707,True
+2025-02-03,Oklahoma City Thunder,Milwaukee Bucks,1,1,0.7593980845105246,True
+2025-02-03,Denver Nuggets,New Orleans Pelicans,1,1,0.6313048849938042,True
+2025-02-03,Portland Trail Blazers,Phoenix Suns,1,1,0.6048407638749388,True
+2025-02-03,Charlotte Hornets,Washington Wizards,0,1,0.7280776857994702,False
+2025-02-03,New York Knicks,Houston Rockets,1,1,0.685249963934268,True
+2025-02-03,Minnesota Timberwolves,Sacramento Kings,0,1,0.7023673453309143,False
+2025-02-04,Chicago Bulls,Miami Heat,1,1,0.5134709141840861,True
+2025-02-04,Brooklyn Nets,Houston Rockets,1,1,0.5097751743235333,True
+2025-02-04,Toronto Raptors,New York Knicks,0,1,0.6188417711437464,False
+2025-02-04,Philadelphia 76ers,Dallas Mavericks,1,1,0.6742381171482761,True
+2025-02-04,Cleveland Cavaliers,Boston Celtics,0,1,0.568317880188832,False
+2025-02-04,Portland Trail Blazers,Indiana Pacers,1,1,0.5170267640933638,True
+2025-02-04,LA Clippers,Los Angeles Lakers,0,0,0.41646316972450415,True
+2025-02-05,Sacramento Kings,Orlando Magic,0,1,0.7180213081685289,False
+2025-02-05,Oklahoma City Thunder,Phoenix Suns,1,1,0.7187082664585178,True
+2025-02-05,Toronto Raptors,Memphis Grizzlies,0,0,0.44494755086820953,True
+2025-02-05,Denver Nuggets,New Orleans Pelicans,1,1,0.6862381559176427,True
+2025-02-05,Utah Jazz,Golden State Warriors,1,0,0.4020262266612575,False
+2025-02-05,Brooklyn Nets,Washington Wizards,0,1,0.5122430236565236,False
+2025-02-05,Charlotte Hornets,Milwaukee Bucks,0,0,0.4554865618985368,True
+2025-02-05,Atlanta Hawks,San Antonio Spurs,0,0,0.4594684385068812,True
+2025-02-05,Minnesota Timberwolves,Chicago Bulls,1,1,0.7396945714505754,True
+2025-02-05,Philadelphia 76ers,Miami Heat,0,1,0.6188465780894278,False
+2025-02-05,Detroit Pistons,Cleveland Cavaliers,0,0,0.4095727099526466,True
+2025-02-06,Los Angeles Lakers,Golden State Warriors,1,1,0.8185245267476129,True
+2025-02-06,LA Clippers,Indiana Pacers,0,0,0.4465423762790228,True
+2025-02-06,Minnesota Timberwolves,Houston Rockets,1,1,0.6217189024691525,True
+2025-02-06,Boston Celtics,Dallas Mavericks,0,1,0.7271234974706647,False
+2025-02-06,Denver Nuggets,Orlando Magic,1,1,0.7198639220887854,True
+2025-02-06,Portland Trail Blazers,Sacramento Kings,1,1,0.8262779946305971,True
+2025-02-07,Oklahoma City Thunder,Toronto Raptors,1,1,0.75105551059354,True
+2025-02-07,Washington Wizards,Cleveland Cavaliers,0,0,0.219015903101405,True
+2025-02-07,Phoenix Suns,Utah Jazz,1,1,0.744651472061178,True
+2025-02-07,Brooklyn Nets,Miami Heat,1,0,0.46046915387393456,False
+2025-02-07,Charlotte Hornets,San Antonio Spurs,1,1,0.5236214126581834,True
+2025-02-07,Atlanta Hawks,Milwaukee Bucks,1,0,0.3876034224369095,False
+2025-02-07,Detroit Pistons,Philadelphia 76ers,1,1,0.5370249705593179,True
+2025-02-08,Orlando Magic,San Antonio Spurs,1,1,0.5614311134878075,True
+2025-02-08,LA Clippers,Utah Jazz,1,1,0.7406460826955219,True
+2025-02-08,Phoenix Suns,Denver Nuggets,0,0,0.44324714396034903,True
+2025-02-08,Dallas Mavericks,Houston Rockets,1,1,0.538478802508188,True
+2025-02-08,New York Knicks,Boston Celtics,0,1,0.5587841819726572,False
+2025-02-08,Sacramento Kings,New Orleans Pelicans,1,1,0.6291492783922806,True
+2025-02-08,Washington Wizards,Atlanta Hawks,0,0,0.498196257836778,True
+2025-02-08,Minnesota Timberwolves,Portland Trail Blazers,1,1,0.513881227194785,True
+2025-02-08,Chicago Bulls,Golden State Warriors,0,1,0.5195889396225363,False
+2025-02-08,Los Angeles Lakers,Indiana Pacers,1,1,0.6986056239479806,True
+2025-02-08,Memphis Grizzlies,Oklahoma City Thunder,0,1,0.5647400964426097,False
+2025-02-09,Houston Rockets,Toronto Raptors,1,0,0.4093486346700825,False
+2025-02-09,Milwaukee Bucks,Philadelphia 76ers,1,1,0.5860600527978852,True
+2025-02-09,Detroit Pistons,Charlotte Hornets,1,1,0.6478763372808984,True
+2025-02-10,Denver Nuggets,Portland Trail Blazers,1,1,0.5571792258213543,True
+2025-02-10,Dallas Mavericks,Sacramento Kings,0,1,0.5839269606067667,False
+2025-02-10,Miami Heat,Boston Celtics,0,0,0.3400732731775211,True
+2025-02-10,Oklahoma City Thunder,New Orleans Pelicans,1,1,0.8513764698328314,True
+2025-02-10,Washington Wizards,San Antonio Spurs,0,0,0.44327401267983657,True
+2025-02-10,Milwaukee Bucks,Golden State Warriors,0,0,0.45262752614399937,True
+2025-02-10,Los Angeles Lakers,Utah Jazz,1,1,0.8617034865247775,True
+2025-02-10,Orlando Magic,Atlanta Hawks,0,1,0.51067762374227,False
+2025-02-10,Cleveland Cavaliers,Minnesota Timberwolves,1,1,0.5258067102127406,True
+2025-02-10,Brooklyn Nets,Charlotte Hornets,1,1,0.6200666697506045,True
+2025-02-11,Chicago Bulls,Detroit Pistons,0,0,0.44200056253656617,True
+2025-02-11,Indiana Pacers,New York Knicks,0,1,0.5577846842203015,False
+2025-02-11,Phoenix Suns,Memphis Grizzlies,0,0,0.47018891047329403,True
+2025-02-11,Philadelphia 76ers,Toronto Raptors,0,1,0.5799371232387006,False
+2025-02-12,Washington Wizards,Indiana Pacers,0,0,0.4533878746203949,True
+2025-02-12,New Orleans Pelicans,Sacramento Kings,0,1,0.5297634136182472,False
+2025-02-12,Houston Rockets,Phoenix Suns,1,1,0.6555045819375097,True
+2025-02-12,Dallas Mavericks,Golden State Warriors,1,0,0.4002374861090945,False
+2025-02-12,Boston Celtics,San Antonio Spurs,1,1,0.6520036883618927,True
+2025-02-12,Orlando Magic,Charlotte Hornets,1,1,0.5057676069832515,True
+2025-02-12,LA Clippers,Memphis Grizzlies,1,1,0.5481561871490841,True
+2025-02-12,New York Knicks,Atlanta Hawks,1,1,0.601067892471184,True
+2025-02-12,Toronto Raptors,Cleveland Cavaliers,0,0,0.2834275576442618,True
+2025-02-12,Utah Jazz,Los Angeles Lakers,1,0,0.25964114252681664,False
+2025-02-12,Denver Nuggets,Portland Trail Blazers,1,1,0.6764796082989436,True
+2025-02-12,Brooklyn Nets,Philadelphia 76ers,1,1,0.6001608528727187,True
+2025-02-12,Chicago Bulls,Detroit Pistons,0,0,0.3262400171865902,True
+2025-02-12,Oklahoma City Thunder,Miami Heat,1,1,0.8382345506077655,True
+2025-02-12,Minnesota Timberwolves,Milwaukee Bucks,0,1,0.7491669299224238,False
+2025-02-13,Minnesota Timberwolves,Oklahoma City Thunder,1,0,0.4216596326732713,False
+2025-02-13,Dallas Mavericks,Miami Heat,1,1,0.6576816365257709,True
+2025-02-13,Houston Rockets,Golden State Warriors,0,0,0.47692564660329984,True
+2025-02-13,New Orleans Pelicans,Sacramento Kings,1,0,0.4286297551538235,False
+2025-02-13,Utah Jazz,LA Clippers,0,0,0.42896937629327925,True
+2025-02-14,Team Rice,Team Bonds,0,0,0.4027642890587573,True
+2025-02-19,Los Angeles Lakers,Charlotte Hornets,0,1,0.7973754430338097,False
+2025-02-20,Philadelphia 76ers,Boston Celtics,0,0,0.3541724415749451,True
+2025-02-20,Indiana Pacers,Memphis Grizzlies,1,1,0.556400858483195,True
+2025-02-20,Denver Nuggets,Charlotte Hornets,1,1,0.8672077387429987,True
+2025-02-20,San Antonio Spurs,Phoenix Suns,1,1,0.5853532327609898,True
+2025-02-20,Portland Trail Blazers,Los Angeles Lakers,0,1,0.5987730314186791,False
+2025-02-20,Milwaukee Bucks,LA Clippers,1,0,0.43914569883873983,False
+2025-02-20,Atlanta Hawks,Orlando Magic,0,1,0.5930667385975712,False
+2025-02-20,Brooklyn Nets,Cleveland Cavaliers,0,0,0.35130615349120986,True
+2025-02-20,New York Knicks,Chicago Bulls,1,1,0.7827002080825659,True
+2025-02-21,San Antonio Spurs,Detroit Pistons,0,0,0.38593901052413043,True
+2025-02-21,Orlando Magic,Memphis Grizzlies,0,1,0.5361961322309824,False
+2025-02-21,Houston Rockets,Minnesota Timberwolves,1,0,0.4027835240401309,False
+2025-02-21,Toronto Raptors,Miami Heat,0,1,0.6056920809055778,False
+2025-02-21,Utah Jazz,Oklahoma City Thunder,0,0,0.3185649133959881,True
+2025-02-21,Dallas Mavericks,New Orleans Pelicans,1,1,0.7296488107239995,True
+2025-02-21,Cleveland Cavaliers,New York Knicks,1,1,0.6884867834471254,True
+2025-02-21,Washington Wizards,Milwaukee Bucks,0,1,0.5471779932865972,False
+2025-02-21,Sacramento Kings,Golden State Warriors,0,0,0.4694945617307039,True
+2025-02-22,Portland Trail Blazers,Charlotte Hornets,1,1,0.6759964610403598,True
+2025-02-22,Philadelphia 76ers,Brooklyn Nets,0,1,0.502311528805257,False
+2025-02-22,Chicago Bulls,Phoenix Suns,0,1,0.5403715094716157,False
+2025-02-22,Denver Nuggets,Los Angeles Lakers,0,1,0.6594085502693839,False
+2025-02-22,Utah Jazz,Houston Rockets,1,1,0.5196423736670067,True
+2025-02-23,Boston Celtics,New York Knicks,1,1,0.6583148211395369,True
+2025-02-23,Orlando Magic,Washington Wizards,1,1,0.6150528781514598,True
+2025-02-23,Golden State Warriors,Dallas Mavericks,1,1,0.6574818096052449,True
+2025-02-23,Cleveland Cavaliers,Memphis Grizzlies,1,1,0.8150661778777948,True
+2025-02-23,Minnesota Timberwolves,Oklahoma City Thunder,0,0,0.44811694357006315,True
+2025-02-23,Indiana Pacers,LA Clippers,1,1,0.6050768531491323,True
+2025-02-23,Toronto Raptors,Phoenix Suns,1,1,0.6585052554214422,True
+2025-02-23,New Orleans Pelicans,San Antonio Spurs,1,0,0.42703728109439665,False
+2025-02-23,Atlanta Hawks,Detroit Pistons,0,0,0.37097408373250457,True
+2025-02-23,Milwaukee Bucks,Miami Heat,1,1,0.606531273434153,True
+2025-02-24,Sacramento Kings,Charlotte Hornets,1,1,0.6382614136799625,True
+2025-02-24,Oklahoma City Thunder,Minnesota Timberwolves,0,1,0.7430121869832391,False
+2025-02-24,Utah Jazz,Portland Trail Blazers,0,0,0.4009849802899513,True
+2025-02-24,Washington Wizards,Brooklyn Nets,1,0,0.30385644497644493,False
+2025-02-24,Philadelphia 76ers,Chicago Bulls,0,1,0.6331800313129285,False
+2025-02-24,Detroit Pistons,LA Clippers,1,1,0.6950229338812726,True
+2025-02-24,Atlanta Hawks,Miami Heat,1,1,0.6554323400144378,True
+2025-02-24,Indiana Pacers,Denver Nuggets,0,0,0.4104958405826218,True
+2025-02-25,Toronto Raptors,Boston Celtics,0,0,0.27883829027372814,True
+2025-02-25,Memphis Grizzlies,Phoenix Suns,1,1,0.6988347693402365,True
+2025-02-25,Los Angeles Lakers,Dallas Mavericks,1,1,0.7545255896778568,True
+2025-02-25,Houston Rockets,Milwaukee Bucks,1,1,0.5575992877215008,True
+2025-02-25,New Orleans Pelicans,San Antonio Spurs,1,1,0.5063785282592927,True
+2025-02-25,Golden State Warriors,Charlotte Hornets,1,1,0.8699955134276774,True
+2025-02-25,Orlando Magic,Cleveland Cavaliers,0,0,0.3585411602086607,True
+2025-02-26,New York Knicks,Philadelphia 76ers,1,1,0.6225316866988968,True
+2025-02-26,Brooklyn Nets,Oklahoma City Thunder,0,0,0.4237481410276104,True
+2025-02-26,Detroit Pistons,Boston Celtics,1,1,0.5995141560015904,True
+2025-02-26,Houston Rockets,San Antonio Spurs,1,1,0.6208410522047975,True
+2025-02-26,Utah Jazz,Sacramento Kings,0,0,0.46768475036341073,True
+2025-02-26,Indiana Pacers,Toronto Raptors,1,1,0.7059304629792266,True
+2025-02-26,Miami Heat,Atlanta Hawks,1,0,0.42034810134146106,False
+2025-02-26,Washington Wizards,Portland Trail Blazers,0,0,0.4393182388635514,True
+2025-02-26,Chicago Bulls,LA Clippers,0,1,0.5152129943330029,False
+2025-02-27,Dallas Mavericks,Charlotte Hornets,1,1,0.7806838275932343,True
+2025-02-27,Los Angeles Lakers,Minnesota Timberwolves,1,1,0.6365840576170055,True
+2025-02-27,Phoenix Suns,New Orleans Pelicans,0,1,0.6132892178363218,False
+2025-02-27,Milwaukee Bucks,Denver Nuggets,1,0,0.3367330973361525,False
+2025-02-27,Orlando Magic,Golden State Warriors,0,0,0.3347530506477565,True
+2025-02-28,Atlanta Hawks,Oklahoma City Thunder,0,0,0.37987272886210377,True
+2025-02-28,Boston Celtics,Cleveland Cavaliers,0,0,0.4257545402881396,True
+2025-02-28,Brooklyn Nets,Portland Trail Blazers,0,1,0.5303723566340351,False
+2025-02-28,Utah Jazz,Minnesota Timberwolves,1,1,0.5008082202249226,True
+2025-02-28,Memphis Grizzlies,New York Knicks,0,1,0.6360728508311618,False
+2025-02-28,Detroit Pistons,Denver Nuggets,0,1,0.6215361389685721,False
+2025-02-28,Los Angeles Lakers,LA Clippers,1,1,0.6103908977222322,True
+2025-02-28,Phoenix Suns,New Orleans Pelicans,1,1,0.5302843950963098,True
+2025-02-28,Chicago Bulls,Toronto Raptors,1,1,0.541186863233697,True
+2025-02-28,Miami Heat,Indiana Pacers,1,0,0.4253404601830475,False
+2025-03-01,Dallas Mavericks,Milwaukee Bucks,0,1,0.569065557784245,False
+2025-03-01,Houston Rockets,Sacramento Kings,0,1,0.5559792422103597,False
+2025-03-01,Charlotte Hornets,Washington Wizards,0,0,0.3167732930379244,True
+2025-03-01,Detroit Pistons,Brooklyn Nets,1,1,0.702546570027223,True
+2025-03-01,Memphis Grizzlies,San Antonio Spurs,0,0,0.46712425340269037,True
+2025-03-01,Philadelphia 76ers,Golden State Warriors,1,0,0.24728659508602355,False
+2025-03-02,Miami Heat,New York Knicks,0,1,0.6060203708226254,False
+2025-03-02,Utah Jazz,New Orleans Pelicans,0,1,0.5223916801866871,False
+2025-03-02,Los Angeles Lakers,LA Clippers,1,1,0.6750306615918211,True
+2025-03-02,Cleveland Cavaliers,Portland Trail Blazers,1,1,0.6381867784514949,True
+2025-03-02,Boston Celtics,Denver Nuggets,1,0,0.48889455836347717,False
+2025-03-02,Orlando Magic,Toronto Raptors,0,1,0.6416848850555946,False
+2025-03-02,Phoenix Suns,Minnesota Timberwolves,0,1,0.536576681012006,False
+2025-03-02,San Antonio Spurs,Oklahoma City Thunder,0,0,0.2888081534687245,True
+2025-03-02,Indiana Pacers,Chicago Bulls,1,1,0.6454185057925534,True
+2025-03-03,Miami Heat,Washington Wizards,1,0,0.47654044629434533,False
+2025-03-03,Dallas Mavericks,Sacramento Kings,0,1,0.5669271862113344,False
+2025-03-03,Oklahoma City Thunder,Houston Rockets,1,1,0.7325030283739136,True
+2025-03-03,Utah Jazz,Detroit Pistons,0,0,0.2181149523933351,True
+2025-03-03,Philadelphia 76ers,Portland Trail Blazers,0,0,0.4577774972364653,True
+2025-03-03,Memphis Grizzlies,Atlanta Hawks,0,1,0.5120575113643826,False
+2025-03-03,Charlotte Hornets,Golden State Warriors,0,0,0.1567121819615282,True
+2025-03-04,Orlando Magic,Toronto Raptors,0,1,0.5661986145731154,False
+2025-03-04,Indiana Pacers,Houston Rockets,1,1,0.8248408791538548,True
+2025-03-04,Phoenix Suns,LA Clippers,1,1,0.5095381964762543,True
+2025-03-04,San Antonio Spurs,Brooklyn Nets,1,1,0.5875107194009005,True
+2025-03-04,Atlanta Hawks,Milwaukee Bucks,0,0,0.42559206461792665,True
+2025-03-04,New York Knicks,Golden State Warriors,0,0,0.3548610256647028,True
+2025-03-04,Chicago Bulls,Cleveland Cavaliers,0,0,0.27947027812313374,True
+2025-03-04,Minnesota Timberwolves,Philadelphia 76ers,1,1,0.7706572368700876,True
+2025-03-04,Los Angeles Lakers,New Orleans Pelicans,1,1,0.6599496856623954,True
+2025-03-05,Washington Wizards,Utah Jazz,1,1,0.5927906027438521,True
+2025-03-05,Denver Nuggets,Sacramento Kings,1,1,0.5832625024286328,True
+2025-03-05,Charlotte Hornets,Minnesota Timberwolves,0,0,0.3198618811061185,True
+2025-03-05,Cleveland Cavaliers,Miami Heat,1,1,0.6703642064311774,True
+2025-03-05,LA Clippers,Detroit Pistons,1,0,0.30305552671413133,False
+2025-03-05,Memphis Grizzlies,Oklahoma City Thunder,0,0,0.27579414737832536,True
+2025-03-05,Milwaukee Bucks,Dallas Mavericks,1,1,0.5882414997520041,True
+2025-03-05,Boston Celtics,Portland Trail Blazers,1,1,0.587305859717519,True
+2025-03-06,Boston Celtics,Philadelphia 76ers,1,1,0.7402185523199113,True
+2025-03-06,Los Angeles Lakers,New York Knicks,1,1,0.7233509223339504,True
+2025-03-06,Atlanta Hawks,Indiana Pacers,1,0,0.3723633629935255,False
+2025-03-06,Brooklyn Nets,Golden State Warriors,0,0,0.2714587733170369,True
+2025-03-06,Orlando Magic,Chicago Bulls,0,1,0.6031774089327124,False
+2025-03-06,New Orleans Pelicans,Houston Rockets,0,1,0.6115321699603268,False
+2025-03-07,Sacramento Kings,San Antonio Spurs,1,1,0.612187157484659,True
+2025-03-07,Miami Heat,Minnesota Timberwolves,0,0,0.48736991138885727,True
+2025-03-07,Toronto Raptors,Utah Jazz,1,1,0.602682630957814,True
+2025-03-07,Oklahoma City Thunder,Portland Trail Blazers,1,1,0.6570620480763169,True
+2025-03-07,Charlotte Hornets,Cleveland Cavaliers,0,0,0.1430922787231747,True
+2025-03-07,Denver Nuggets,Phoenix Suns,1,1,0.6994955484082181,True
+2025-03-07,LA Clippers,New York Knicks,1,1,0.6903725527147019,True
+2025-03-07,Dallas Mavericks,Memphis Grizzlies,0,1,0.5486428594576755,False
+2025-03-08,Milwaukee Bucks,Orlando Magic,0,1,0.6495922462818832,False
+2025-03-08,Houston Rockets,New Orleans Pelicans,1,1,0.5585156502617614,True
+2025-03-08,Miami Heat,Chicago Bulls,0,1,0.5981668748401024,False
+2025-03-08,Charlotte Hornets,Brooklyn Nets,1,0,0.29015743237843195,False
+2025-03-08,Toronto Raptors,Washington Wizards,0,0,0.4655942121485054,True
+2025-03-08,Golden State Warriors,Detroit Pistons,1,1,0.5691918366844938,True
+2025-03-08,Boston Celtics,Los Angeles Lakers,1,1,0.6208832357479804,True
+2025-03-08,Atlanta Hawks,Indiana Pacers,1,0,0.4001607152820705,False
+2025-03-09,Milwaukee Bucks,Cleveland Cavaliers,0,0,0.4010183871301876,True
+2025-03-09,Oklahoma City Thunder,Denver Nuggets,1,1,0.6486102929181689,True
+2025-03-09,Philadelphia 76ers,Utah Jazz,1,1,0.5951185436740233,True
+2025-03-09,Portland Trail Blazers,Detroit Pistons,0,1,0.5826079776133174,False
+2025-03-09,Dallas Mavericks,Phoenix Suns,0,1,0.535108087537129,False
+2025-03-09,Minnesota Timberwolves,San Antonio Spurs,1,1,0.6951155960675647,True
+2025-03-09,New Orleans Pelicans,Memphis Grizzlies,0,0,0.4888503959699673,True
+2025-03-09,LA Clippers,Sacramento Kings,1,1,0.5123140338885027,True
+2025-03-10,Sacramento Kings,New York Knicks,0,1,0.6496013184664012,False
+2025-03-10,Oklahoma City Thunder,Denver Nuggets,0,1,0.7492501768988209,False
+2025-03-10,Toronto Raptors,Washington Wizards,1,1,0.540784834415671,True
+2025-03-10,Miami Heat,Charlotte Hornets,0,1,0.8252884981406954,False
+2025-03-10,Houston Rockets,Orlando Magic,1,1,0.5187367302348286,True
+2025-03-10,San Antonio Spurs,Dallas Mavericks,0,1,0.6125740038118146,False
+2025-03-10,Atlanta Hawks,Philadelphia 76ers,1,1,0.7282442012154194,True
+2025-03-10,Brooklyn Nets,Los Angeles Lakers,1,0,0.37877993563153334,False
+2025-03-10,Chicago Bulls,Indiana Pacers,1,0,0.40221462197589375,False
+2025-03-10,Boston Celtics,Utah Jazz,1,1,0.8325344165365602,True
+2025-03-10,Golden State Warriors,Portland Trail Blazers,1,1,0.7821400880096676,True
+2025-03-10,Memphis Grizzlies,Phoenix Suns,1,1,0.5133212671387716,True
+2025-03-11,New Orleans Pelicans,LA Clippers,1,1,0.5384194648427866,True
+2025-03-11,Cleveland Cavaliers,Brooklyn Nets,1,1,0.858628860950729,True
+2025-03-11,Detroit Pistons,Washington Wizards,1,1,0.7937671991526619,True
+2025-03-11,Indiana Pacers,Milwaukee Bucks,1,0,0.48431081645638746,False
+2025-03-12,San Antonio Spurs,Dallas Mavericks,1,1,0.5853732942902121,True
+2025-03-12,Toronto Raptors,Philadelphia 76ers,1,1,0.6923328913316303,True
+2025-03-12,Denver Nuggets,Minnesota Timberwolves,0,0,0.44881353145812125,True
+2025-03-12,Boston Celtics,Oklahoma City Thunder,0,1,0.515097778966258,False
+2025-03-12,Miami Heat,LA Clippers,0,1,0.6794826052861189,False
+2025-03-12,Portland Trail Blazers,New York Knicks,0,1,0.5349786612248998,False
+2025-03-12,Memphis Grizzlies,Utah Jazz,1,1,0.5973677509489109,True
+2025-03-12,Atlanta Hawks,Charlotte Hornets,1,1,0.7624962694201979,True
+2025-03-12,Houston Rockets,Phoenix Suns,1,1,0.6451389999521442,True
+2025-03-13,Detroit Pistons,Washington Wizards,0,1,0.7539828498504811,False
+2025-03-13,Chicago Bulls,Brooklyn Nets,1,1,0.6545753658249523,True
+2025-03-13,Golden State Warriors,Sacramento Kings,1,1,0.6919779811982347,True
+2025-03-13,New Orleans Pelicans,Orlando Magic,0,0,0.49322705296447283,True
+2025-03-13,Milwaukee Bucks,Los Angeles Lakers,1,1,0.5703393818488272,True
+2025-03-14,Houston Rockets,Dallas Mavericks,1,1,0.7085586704532297,True
+2025-03-14,Miami Heat,Boston Celtics,0,0,0.46036555286235153,True
+2025-03-14,Philadelphia 76ers,Indiana Pacers,0,0,0.4200970300300823,True
+2025-03-14,Minnesota Timberwolves,Orlando Magic,1,1,0.7169025840133074,True
+2025-03-14,Memphis Grizzlies,Cleveland Cavaliers,0,0,0.31824622463744534,True
+2025-03-14,San Antonio Spurs,Charlotte Hornets,0,1,0.7209051912664696,False
+2025-03-14,Phoenix Suns,Sacramento Kings,1,1,0.559251460587166,True
+2025-03-14,Utah Jazz,Toronto Raptors,0,0,0.38399053454573223,True
+2025-03-14,Denver Nuggets,Los Angeles Lakers,1,1,0.5505719481463931,True
+2025-03-14,Atlanta Hawks,LA Clippers,0,1,0.5761212797905638,False
+2025-03-15,Houston Rockets,Chicago Bulls,1,1,0.5424573705952779,True
+2025-03-15,San Antonio Spurs,New Orleans Pelicans,1,1,0.5256200936333851,True
+2025-03-15,Golden State Warriors,New York Knicks,1,1,0.7253655891460484,True
+2025-03-15,Brooklyn Nets,Boston Celtics,0,0,0.4311494871376443,True
+2025-03-15,Detroit Pistons,Oklahoma City Thunder,0,0,0.47117708977260686,True
+2025-03-15,Denver Nuggets,Washington Wizards,0,1,0.5628694484856612,False
+2025-03-15,Memphis Grizzlies,Miami Heat,1,0,0.48285712846654383,False
+2025-03-15,Milwaukee Bucks,Indiana Pacers,1,1,0.6827569531678257,True
+2025-03-16,Cleveland Cavaliers,Orlando Magic,0,1,0.6786630394163482,False
+2025-03-16,Los Angeles Lakers,Phoenix Suns,1,1,0.6125111618037715,True
+2025-03-16,LA Clippers,Charlotte Hornets,1,1,0.7849984872404768,True
+2025-03-16,Dallas Mavericks,Philadelphia 76ers,0,1,0.5764733195375609,False
+2025-03-16,Minnesota Timberwolves,Utah Jazz,1,1,0.8164412669419934,True
+2025-03-16,Portland Trail Blazers,Toronto Raptors,1,0,0.46592355968605437,False
+2025-03-16,Brooklyn Nets,Atlanta Hawks,1,0,0.4030972107237821,False
+2025-03-16,Milwaukee Bucks,Oklahoma City Thunder,0,0,0.4370598511537495,True
+2025-03-17,Minnesota Timberwolves,Indiana Pacers,0,1,0.624844454578902,False
+2025-03-17,Phoenix Suns,Toronto Raptors,1,1,0.541356244745257,True
+2025-03-17,Golden State Warriors,Denver Nuggets,0,1,0.7373609691279228,False
+2025-03-17,Los Angeles Lakers,San Antonio Spurs,1,1,0.5522388944623078,True
+2025-03-17,Houston Rockets,Philadelphia 76ers,1,1,0.7918100635697498,True
+2025-03-17,New York Knicks,Miami Heat,1,1,0.6476617642220456,True
+2025-03-17,Sacramento Kings,Memphis Grizzlies,1,1,0.5759337574166807,True
+2025-03-17,Portland Trail Blazers,Washington Wizards,1,0,0.4530598758290364,False
+2025-03-17,Utah Jazz,Chicago Bulls,0,0,0.24904379609308966,True
+2025-03-17,New Orleans Pelicans,Detroit Pistons,0,0,0.37239262022741004,True
+2025-03-18,Boston Celtics,Brooklyn Nets,1,1,0.6945160460715427,True
+2025-03-18,Charlotte Hornets,Atlanta Hawks,0,0,0.44120286808884207,True
+2025-03-18,Golden State Warriors,Milwaukee Bucks,1,1,0.5279455635043119,True
+2025-03-18,LA Clippers,Cleveland Cavaliers,1,1,0.5756784550581312,True
+2025-03-19,Oklahoma City Thunder,Philadelphia 76ers,1,1,0.7639659457887772,True
+2025-03-19,Orlando Magic,Houston Rockets,0,0,0.4359440144426248,True
+2025-03-19,Phoenix Suns,Chicago Bulls,1,1,0.6372530827941949,True
+2025-03-19,Los Angeles Lakers,Denver Nuggets,1,1,0.6028710074562592,True
+2025-03-19,Minnesota Timberwolves,New Orleans Pelicans,0,1,0.8694892627185712,False
+2025-03-19,San Antonio Spurs,New York Knicks,1,1,0.5001122711572892,True
+2025-03-19,Utah Jazz,Washington Wizards,1,0,0.40369230564484826,False
+2025-03-19,Miami Heat,Detroit Pistons,0,0,0.3228395977876067,True
+2025-03-19,Sacramento Kings,Cleveland Cavaliers,1,1,0.5803065188601771,True
+2025-03-19,Portland Trail Blazers,Memphis Grizzlies,1,1,0.5154007719753971,True
+2025-03-19,Indiana Pacers,Dallas Mavericks,1,1,0.7469667006585415,True
+2025-03-20,Indiana Pacers,Brooklyn Nets,1,1,0.6240826656137946,True
+2025-03-20,Sacramento Kings,Chicago Bulls,0,1,0.5538048533210528,False
+2025-03-20,Charlotte Hornets,New York Knicks,1,0,0.4092236352301192,False
+2025-03-20,Los Angeles Lakers,Milwaukee Bucks,0,1,0.5480309442114887,False
+2025-03-20,Golden State Warriors,Toronto Raptors,1,1,0.6691203082596071,True
+2025-03-21,Dallas Mavericks,Detroit Pistons,1,0,0.2858426836134409,False
+2025-03-21,Washington Wizards,Orlando Magic,0,0,0.46036666931254755,True
+2025-03-21,Miami Heat,Houston Rockets,0,0,0.3711050493255613,True
+2025-03-21,Utah Jazz,Boston Celtics,0,0,0.25150067298431583,True
+2025-03-21,LA Clippers,Memphis Grizzlies,1,1,0.7634348125217097,True
+2025-03-21,San Antonio Spurs,Philadelphia 76ers,1,1,0.6871791683469595,True
+2025-03-21,Portland Trail Blazers,Denver Nuggets,1,1,0.538070135720479,True
+2025-03-21,Phoenix Suns,Cleveland Cavaliers,1,1,0.590526037126294,True
+2025-03-21,Oklahoma City Thunder,Charlotte Hornets,1,1,0.8580245268246764,True
+2025-03-21,Minnesota Timberwolves,New Orleans Pelicans,1,1,0.8336311441234864,True
+2025-03-22,Atlanta Hawks,Golden State Warriors,1,0,0.4891580408772665,False
+2025-03-22,New York Knicks,Washington Wizards,1,1,0.7323711838056733,True
+2025-03-22,Sacramento Kings,Milwaukee Bucks,0,0,0.4913881583234864,True
+2025-03-22,Los Angeles Lakers,Chicago Bulls,0,1,0.5486338827487227,False
+2025-03-22,Indiana Pacers,Brooklyn Nets,1,1,0.6616542637248111,True
+2025-03-23,Portland Trail Blazers,Boston Celtics,0,0,0.4436695401429322,True
+2025-03-23,Houston Rockets,Denver Nuggets,0,1,0.6983781113859715,False
+2025-03-23,Miami Heat,Charlotte Hornets,1,1,0.5410006144572295,True
+2025-03-23,Detroit Pistons,New Orleans Pelicans,1,1,0.8233660631535364,True
+2025-03-23,Utah Jazz,Cleveland Cavaliers,0,0,0.3325347140125072,True
+2025-03-23,Toronto Raptors,San Antonio Spurs,0,1,0.5403742540554684,False
+2025-03-23,LA Clippers,Oklahoma City Thunder,0,1,0.5307534434889559,False
+2025-03-23,Atlanta Hawks,Philadelphia 76ers,1,1,0.6833668818959479,True
+2025-03-24,Sacramento Kings,Boston Celtics,0,0,0.4168073744447068,True
+2025-03-24,Washington Wizards,Toronto Raptors,0,1,0.6210448934007815,False
+2025-03-24,Indiana Pacers,Minnesota Timberwolves,1,0,0.3862845309374747,False
+2025-03-24,Brooklyn Nets,Dallas Mavericks,0,1,0.6946157707152234,False
+2025-03-24,Orlando Magic,Los Angeles Lakers,1,1,0.6298990569732522,True
+2025-03-24,Phoenix Suns,Milwaukee Bucks,1,1,0.6345110061049218,True
+2025-03-24,New Orleans Pelicans,Philadelphia 76ers,1,0,0.44448803992742814,False
+2025-03-24,Denver Nuggets,Chicago Bulls,0,0,0.3618454965624823,True
+2025-03-25,New York Knicks,Dallas Mavericks,1,1,0.7150223235708338,True
+2025-03-25,Portland Trail Blazers,Cleveland Cavaliers,0,1,0.514208072424081,False
+2025-03-25,Detroit Pistons,San Antonio Spurs,1,1,0.5901154580286476,True
+2025-03-25,Houston Rockets,Atlanta Hawks,1,1,0.6304415168628899,True
+2025-03-25,Miami Heat,Golden State Warriors,1,0,0.3952885397075342,False
+2025-03-25,Utah Jazz,Memphis Grizzlies,0,0,0.3282237199585964,True
+2025-03-25,Charlotte Hornets,Orlando Magic,0,0,0.37991833750469506,True
+2025-03-25,Sacramento Kings,Oklahoma City Thunder,0,0,0.186204025465541,True
+2025-03-26,Brooklyn Nets,Toronto Raptors,0,1,0.6564306967815151,False
+2025-03-26,New York Knicks,LA Clippers,0,0,0.3908245070218328,True
+2025-03-26,Indiana Pacers,Los Angeles Lakers,0,1,0.7354696422992862,False
+2025-03-26,Philadelphia 76ers,Washington Wizards,0,1,0.5873426574426167,False
+2025-03-26,Phoenix Suns,Boston Celtics,0,0,0.47281748130834694,True
+2025-03-26,Denver Nuggets,Milwaukee Bucks,1,0,0.4576895160666984,False
+2025-03-27,Washington Wizards,Indiana Pacers,0,0,0.40010934285074196,True
+2025-03-27,Orlando Magic,Dallas Mavericks,0,1,0.6299279899630059,False
+2025-03-27,Oklahoma City Thunder,Memphis Grizzlies,1,1,0.7132728069687553,True
+2025-03-27,Chicago Bulls,Los Angeles Lakers,1,1,0.8109910957587094,True
+2025-03-27,Miami Heat,Atlanta Hawks,1,0,0.4478619541840693,False
+2025-03-27,Cleveland Cavaliers,San Antonio Spurs,1,1,0.6349310495308761,True
+2025-03-27,Utah Jazz,Houston Rockets,0,0,0.21819527034243189,True
+2025-03-27,Sacramento Kings,Portland Trail Blazers,1,0,0.48921399575771857,False
+2025-03-28,New Orleans Pelicans,Golden State Warriors,0,0,0.3601961118918584,True
+2025-03-28,Minnesota Timberwolves,Phoenix Suns,1,1,0.7071917116395581,True
+2025-03-28,Milwaukee Bucks,New York Knicks,0,1,0.5294448929839441,False
+2025-03-28,Denver Nuggets,Utah Jazz,1,1,0.8146125792954179,True
+2025-03-28,Detroit Pistons,Cleveland Cavaliers,1,1,0.6796137440923263,True
+2025-03-28,Toronto Raptors,Charlotte Hornets,1,1,0.631776190089029,True
+2025-03-28,Brooklyn Nets,LA Clippers,0,0,0.3157309300300808,True
+2025-03-29,San Antonio Spurs,Boston Celtics,0,0,0.36412852336378715,True
+2025-03-29,Chicago Bulls,Dallas Mavericks,0,1,0.728953148782518,False
+2025-03-29,Washington Wizards,Brooklyn Nets,0,1,0.5590617461192001,False
+2025-03-29,Orlando Magic,Sacramento Kings,1,1,0.6868837302481072,True
+2025-03-29,Oklahoma City Thunder,Indiana Pacers,1,1,0.635260738287408,True
+2025-03-29,Memphis Grizzlies,Los Angeles Lakers,0,1,0.6670265144512848,False
+2025-03-29,Philadelphia 76ers,Miami Heat,0,0,0.49152895682023495,True
+2025-03-30,New York Knicks,Portland Trail Blazers,1,1,0.7062260820459518,True
+2025-03-30,New Orleans Pelicans,Charlotte Hornets,1,1,0.5697860614757675,True
+2025-03-30,Phoenix Suns,Houston Rockets,0,0,0.4975374164675188,True
+2025-03-30,Minnesota Timberwolves,Detroit Pistons,1,1,0.5892885821298416,True
+2025-03-30,Cleveland Cavaliers,LA Clippers,1,0,0.3968188017180151,False
+2025-03-30,Philadelphia 76ers,Toronto Raptors,0,0,0.35815688519972316,True
+2025-03-30,San Antonio Spurs,Golden State Warriors,0,0,0.47177020648438606,True
+2025-03-30,Milwaukee Bucks,Atlanta Hawks,0,1,0.5732857957936377,False
+2025-03-31,Indiana Pacers,Sacramento Kings,1,1,0.7831019020348826,True
+2025-03-31,Oklahoma City Thunder,Chicago Bulls,1,1,0.5880385942600345,True
+2025-03-31,Los Angeles Lakers,Houston Rockets,1,0,0.43738060428253117,False
+2025-03-31,Charlotte Hornets,Utah Jazz,1,1,0.648311126253934,True
+2025-03-31,Dallas Mavericks,Brooklyn Nets,0,1,0.6322807376996861,False
+2025-03-31,Memphis Grizzlies,Boston Celtics,0,0,0.3377225485317389,True
+2025-03-31,Washington Wizards,Miami Heat,0,0,0.36742438430602264,True
+2025-03-31,Orlando Magic,LA Clippers,0,0,0.49750720113333413,True
+2025-04-01,Atlanta Hawks,Portland Trail Blazers,0,1,0.7490229009373038,False
+2025-04-01,New York Knicks,Philadelphia 76ers,1,1,0.8205244367190201,True
+2025-04-01,Memphis Grizzlies,Golden State Warriors,0,0,0.37097572196269835,True
+2025-04-01,Milwaukee Bucks,Phoenix Suns,1,1,0.6460622867382171,True
+2025-04-01,Denver Nuggets,Minnesota Timberwolves,0,0,0.3847796645949166,True
+2025-04-01,San Antonio Spurs,Orlando Magic,0,0,0.47455093593655084,True
+2025-04-01,Chicago Bulls,Toronto Raptors,1,1,0.5815239269605591,True
+2025-04-02,Washington Wizards,Sacramento Kings,1,0,0.42731558354077787,False
+2025-04-02,Indiana Pacers,Charlotte Hornets,1,1,0.7764259562161806,True
+2025-04-02,Dallas Mavericks,Atlanta Hawks,1,1,0.5112565927593736,True
+2025-04-02,Boston Celtics,Miami Heat,0,1,0.7020792795930577,False
+2025-04-02,Oklahoma City Thunder,Detroit Pistons,1,1,0.7012110787129434,True
+2025-04-02,Denver Nuggets,San Antonio Spurs,0,1,0.6585445564733015,False
+2025-04-02,Houston Rockets,Utah Jazz,1,1,0.8735116302463168,True
+2025-04-02,Cleveland Cavaliers,New York Knicks,1,1,0.6185573352515333,True
+2025-04-02,LA Clippers,New Orleans Pelicans,1,1,0.8508559207072297,True
+2025-04-03,Philadelphia 76ers,Milwaukee Bucks,0,0,0.3340412933171616,True
+2025-04-03,Washington Wizards,Orlando Magic,0,0,0.19345598978670056,True
+2025-04-03,Miami Heat,Memphis Grizzlies,0,1,0.6263611797613274,False
+2025-04-03,Los Angeles Lakers,Golden State Warriors,0,0,0.4240228097497062,True
+2025-04-03,Toronto Raptors,Portland Trail Blazers,0,1,0.6075737928725767,False
+2025-04-03,Brooklyn Nets,Minnesota Timberwolves,0,0,0.2609583312113167,True
+2025-04-04,Golden State Warriors,Denver Nuggets,1,1,0.5438272896059634,True
+2025-04-04,Chicago Bulls,Portland Trail Blazers,1,1,0.7501241929703758,True
+2025-04-04,Los Angeles Lakers,New Orleans Pelicans,1,1,0.6035423861620253,True
+2025-04-04,Boston Celtics,Phoenix Suns,1,1,0.7820476895103136,True
+2025-04-04,LA Clippers,Dallas Mavericks,1,1,0.7634089109995004,True
+2025-04-04,Houston Rockets,Oklahoma City Thunder,1,0,0.3947663965556117,False
+2025-04-04,Indiana Pacers,Utah Jazz,1,1,0.8862282068417718,True
+2025-04-04,San Antonio Spurs,Cleveland Cavaliers,0,0,0.42919558336352315,True
+2025-04-04,Toronto Raptors,Detroit Pistons,0,0,0.4064818592727177,True
+2025-04-04,Charlotte Hornets,Sacramento Kings,0,1,0.5088857916806308,False
+2025-04-05,Philadelphia 76ers,Minnesota Timberwolves,0,0,0.2206514311775214,True
+2025-04-05,LA Clippers,Dallas Mavericks,1,1,0.7797460872063261,True
+2025-04-05,Atlanta Hawks,New York Knicks,0,1,0.5670911214228999,False
+2025-04-05,Miami Heat,Milwaukee Bucks,0,1,0.647206270889904,False
+2025-04-05,Detroit Pistons,Memphis Grizzlies,0,1,0.5761126516257775,False
+2025-04-06,Cleveland Cavaliers,Sacramento Kings,0,1,0.6810228557358015,False
+2025-04-06,Denver Nuggets,Indiana Pacers,0,0,0.3644194109484327,True
+2025-04-06,Golden State Warriors,Houston Rockets,0,1,0.5113542826878797,False
+2025-04-06,Portland Trail Blazers,San Antonio Spurs,1,1,0.5953563792348989,True
+2025-04-06,Charlotte Hornets,Chicago Bulls,0,0,0.32048663017476153,True
+2025-04-06,New York Knicks,Phoenix Suns,1,1,0.6970204211955519,True
+2025-04-06,New Orleans Pelicans,Milwaukee Bucks,0,0,0.3710382811913637,True
+2025-04-06,Brooklyn Nets,Toronto Raptors,0,0,0.41882694013373006,True
+2025-04-06,Atlanta Hawks,Utah Jazz,1,1,0.7746426615434121,True
+2025-04-06,Oklahoma City Thunder,Los Angeles Lakers,0,1,0.8298439113953571,False
+2025-04-06,Boston Celtics,Washington Wizards,1,1,0.8524281436743385,True
+2025-04-07,Detroit Pistons,Sacramento Kings,0,1,0.7322899482266586,False
+2025-04-07,Miami Heat,Philadelphia 76ers,1,1,0.8462104733267795,True
+2025-04-08,Charlotte Hornets,Memphis Grizzlies,0,0,0.4548771871253944,True
+2025-04-08,Brooklyn Nets,New Orleans Pelicans,1,1,0.5484314435905959,True
+2025-04-08,New York Knicks,Boston Celtics,0,0,0.43741240516166596,True
+2025-04-08,Indiana Pacers,Washington Wizards,1,1,0.8640906961716899,True
+2025-04-08,Orlando Magic,Atlanta Hawks,1,1,0.5628501885415569,True
+2025-04-08,LA Clippers,San Antonio Spurs,1,1,0.7932610234244316,True
+2025-04-08,Milwaukee Bucks,Minnesota Timberwolves,1,0,0.4733584963765446,False
+2025-04-08,Phoenix Suns,Golden State Warriors,0,0,0.3426053614779358,True
+2025-04-08,Cleveland Cavaliers,Chicago Bulls,1,1,0.5349460625489149,True
+2025-04-08,Oklahoma City Thunder,Los Angeles Lakers,1,1,0.7372949910975902,True
+2025-04-09,Phoenix Suns,Oklahoma City Thunder,0,0,0.20034100828057977,True
+2025-04-09,Orlando Magic,Boston Celtics,1,0,0.4232928221139715,False
+2025-04-09,LA Clippers,Houston Rockets,1,0,0.48378821728949556,False
+2025-04-09,Golden State Warriors,San Antonio Spurs,0,1,0.7487678866470331,False
+2025-04-09,Sacramento Kings,Denver Nuggets,0,1,0.5333962558038837,False
+2025-04-09,Chicago Bulls,Miami Heat,1,0,0.3299879982905329,False
+2025-04-09,Utah Jazz,Portland Trail Blazers,1,0,0.3081602190443324,False
+2025-04-09,Dallas Mavericks,Los Angeles Lakers,0,1,0.5354972411634213,False
+2025-04-09,Washington Wizards,Philadelphia 76ers,0,0,0.4046828097692155,True
+2025-04-09,Toronto Raptors,Charlotte Hornets,1,1,0.807462331727316,True
+2025-04-10,Indiana Pacers,Cleveland Cavaliers,1,1,0.6308364805359956,True
+2025-04-10,Memphis Grizzlies,Minnesota Timberwolves,0,0,0.43614774743205226,True
+2025-04-10,Brooklyn Nets,Atlanta Hawks,0,0,0.3934406089747013,True
+2025-04-10,Milwaukee Bucks,New Orleans Pelicans,1,1,0.7164187601458893,True
+2025-04-10,Detroit Pistons,New York Knicks,1,0,0.48289116078881744,False
+2025-04-11,Boston Celtics,Charlotte Hornets,1,1,0.8445543357014922,True
+2025-04-11,Chicago Bulls,Washington Wizards,1,1,0.7704029635299875,True
+2025-04-11,Los Angeles Lakers,Houston Rockets,1,0,0.4842795023436323,False
+2025-04-11,Phoenix Suns,San Antonio Spurs,1,0,0.4203400822720901,False
+2025-04-11,New Orleans Pelicans,Miami Heat,0,0,0.19022390066493483,True
+2025-04-11,Utah Jazz,Oklahoma City Thunder,0,0,0.1911972626939594,True
+2025-04-11,Minnesota Timberwolves,Brooklyn Nets,1,1,0.772796454568788,True
+2025-04-11,Denver Nuggets,Memphis Grizzlies,1,1,0.6031233809301303,True
+2025-04-11,Sacramento Kings,LA Clippers,0,0,0.312596385798755,True
+2025-04-11,Philadelphia 76ers,Atlanta Hawks,0,0,0.47583428640921954,True
+2025-04-11,Detroit Pistons,Milwaukee Bucks,0,1,0.5165942623624784,False
+2025-04-11,New York Knicks,Cleveland Cavaliers,0,1,0.5209633704316224,False
+2025-04-11,Indiana Pacers,Orlando Magic,0,1,0.5252833730505082,False
+2025-04-11,Portland Trail Blazers,Golden State Warriors,0,0,0.3797909527079805,True
+2025-04-11,Dallas Mavericks,Toronto Raptors,1,0,0.37428107718809267,False
+2025-04-13,New Orleans Pelicans,Oklahoma City Thunder,0,0,0.23733611638201238,True
+2025-04-13,Milwaukee Bucks,Detroit Pistons,1,1,0.5867370657106963,True
+2025-04-13,Minnesota Timberwolves,Utah Jazz,1,1,0.8821205548851861,True
+2025-04-13,Cleveland Cavaliers,Indiana Pacers,0,1,0.5000456256904415,False
+2025-04-13,Houston Rockets,Denver Nuggets,0,1,0.6431294949728668,False
+2025-04-13,Miami Heat,Washington Wizards,0,1,0.8935257910225217,False
+2025-04-13,Sacramento Kings,Phoenix Suns,1,1,0.7472160842533391,True
+2025-04-13,Atlanta Hawks,Orlando Magic,1,0,0.41193111901406737,False
+2025-04-13,Philadelphia 76ers,Chicago Bulls,0,0,0.41465069397216076,True
+2025-04-13,San Antonio Spurs,Toronto Raptors,1,0,0.34473364712646126,False
+2025-04-13,Memphis Grizzlies,Dallas Mavericks,1,1,0.5475351148559575,True
+2025-04-13,Boston Celtics,Charlotte Hornets,1,1,0.8886932021606752,True
+2025-04-13,Portland Trail Blazers,Los Angeles Lakers,1,0,0.33367721007329565,False
+2025-04-13,Golden State Warriors,LA Clippers,0,0,0.48673104452493243,True
+2025-04-13,Brooklyn Nets,New York Knicks,0,0,0.3036776450466535,True
+2025-04-15,Orlando Magic,Atlanta Hawks,1,1,0.5873023368001,True
+2025-04-15,Golden State Warriors,Memphis Grizzlies,1,1,0.6808196698918114,True
+2025-04-16,Sacramento Kings,Dallas Mavericks,0,1,0.6719292730831754,False
+2025-04-16,Chicago Bulls,Miami Heat,0,0,0.36171467815703884,True
+2025-04-18,Memphis Grizzlies,Dallas Mavericks,1,1,0.6024456402160199,True
+2025-04-18,Atlanta Hawks,Miami Heat,0,0,0.34832921401506284,True
+2025-04-19,Denver Nuggets,LA Clippers,1,0,0.37763164210222044,False
+2025-04-19,Los Angeles Lakers,Minnesota Timberwolves,0,1,0.5403742507693718,False
+2025-04-19,New York Knicks,Detroit Pistons,1,1,0.6389853289285963,True
+2025-04-19,Indiana Pacers,Milwaukee Bucks,1,1,0.5840217597398262,True
+2025-04-20,Cleveland Cavaliers,Miami Heat,1,0,0.3839482080698675,False
+2025-04-20,Houston Rockets,Golden State Warriors,0,0,0.3925127672539997,True
+2025-04-20,Boston Celtics,Orlando Magic,1,1,0.5598639591094179,True
+2025-04-20,Oklahoma City Thunder,Memphis Grizzlies,1,1,0.691425479070314,True
+2025-04-21,Denver Nuggets,LA Clippers,0,0,0.44913848222233166,True
+2025-04-21,New York Knicks,Detroit Pistons,0,1,0.6773587183438248,False
+2025-04-22,Los Angeles Lakers,Minnesota Timberwolves,1,0,0.43493679412622704,False
+2025-04-22,Oklahoma City Thunder,Memphis Grizzlies,1,1,0.8248838734931913,True
+2025-04-22,Indiana Pacers,Milwaukee Bucks,1,1,0.5728214914598392,True
+2025-04-23,Boston Celtics,Orlando Magic,1,1,0.5883588317682134,True
+2025-04-23,Houston Rockets,Golden State Warriors,1,0,0.43912894701051874,False
+2025-04-23,Cleveland Cavaliers,Miami Heat,1,0,0.465786135779441,False
+2025-04-24,Memphis Grizzlies,Oklahoma City Thunder,0,0,0.23476006337976701,True
+2025-04-24,LA Clippers,Denver Nuggets,1,1,0.6887399482746698,True
+2025-04-24,Detroit Pistons,New York Knicks,0,0,0.46324424793452995,True
+2025-04-25,Minnesota Timberwolves,Los Angeles Lakers,1,1,0.6670632470893731,True
+2025-04-25,Orlando Magic,Boston Celtics,1,1,0.5334476091197387,True
+2025-04-25,Milwaukee Bucks,Indiana Pacers,1,1,0.5145005631507422,True
+2025-04-26,Memphis Grizzlies,Oklahoma City Thunder,0,0,0.23075855217326985,True
+2025-04-26,Miami Heat,Cleveland Cavaliers,0,1,0.5096352368820626,False
+2025-04-26,Golden State Warriors,Houston Rockets,1,1,0.5987491066172813,True
+2025-04-26,LA Clippers,Denver Nuggets,0,1,0.7804671668452127,False
+2025-04-27,Detroit Pistons,New York Knicks,0,0,0.465677384072033,True
+2025-04-27,Milwaukee Bucks,Indiana Pacers,0,1,0.5638492778806213,False
+2025-04-27,Orlando Magic,Boston Celtics,0,1,0.5290329871422751,False
+2025-04-27,Minnesota Timberwolves,Los Angeles Lakers,1,1,0.6876573654380396,True
+2025-04-28,Miami Heat,Cleveland Cavaliers,0,0,0.39246339118602114,True
+2025-04-28,Golden State Warriors,Houston Rockets,1,1,0.6685108554151585,True
+2025-04-29,Denver Nuggets,LA Clippers,1,0,0.30419057207681743,False
+2025-04-29,New York Knicks,Detroit Pistons,0,1,0.5937974311021621,False
+2025-04-29,Boston Celtics,Orlando Magic,1,1,0.6758091491445354,True
+2025-04-29,Indiana Pacers,Milwaukee Bucks,1,1,0.6354698373280803,True
+2025-04-30,Houston Rockets,Golden State Warriors,1,0,0.4440731149087865,False
+2025-04-30,Los Angeles Lakers,Minnesota Timberwolves,0,0,0.4273663463560096,True
+2025-05-01,LA Clippers,Denver Nuggets,1,1,0.6941863451154615,True
+2025-05-01,Detroit Pistons,New York Knicks,0,0,0.42134093864457706,True
+2025-05-02,Golden State Warriors,Houston Rockets,0,1,0.6781242145206225,False
+2025-05-03,Denver Nuggets,LA Clippers,1,0,0.4858319153213483,False
+2025-05-04,Cleveland Cavaliers,Indiana Pacers,0,1,0.6627126946579341,False
+2025-05-04,Houston Rockets,Golden State Warriors,0,0,0.4633997516450113,True
+2025-05-05,Boston Celtics,New York Knicks,0,1,0.6692533390091505,False
+2025-05-05,Oklahoma City Thunder,Denver Nuggets,0,1,0.7156948983518027,False
+2025-05-06,Cleveland Cavaliers,Indiana Pacers,0,1,0.605847754079862,False
+2025-05-06,Minnesota Timberwolves,Golden State Warriors,0,1,0.6194247126153206,False
+2025-05-07,Boston Celtics,New York Knicks,0,1,0.6002510377301159,False
+2025-05-07,Oklahoma City Thunder,Denver Nuggets,1,1,0.7189512351430363,True
+2025-05-08,Minnesota Timberwolves,Golden State Warriors,1,1,0.5855747096022396,True
+2025-05-09,Indiana Pacers,Cleveland Cavaliers,0,0,0.4372568361229109,True
+2025-05-09,Denver Nuggets,Oklahoma City Thunder,1,0,0.25647246557302605,False
+2025-05-10,Golden State Warriors,Minnesota Timberwolves,0,0,0.4557866277550748,True
+2025-05-10,New York Knicks,Boston Celtics,0,0,0.4207757513597559,True
+2025-05-11,Denver Nuggets,Oklahoma City Thunder,0,0,0.2863545944009824,True
+2025-05-11,Indiana Pacers,Cleveland Cavaliers,1,0,0.3667883707212014,False
+2025-05-12,Golden State Warriors,Minnesota Timberwolves,0,0,0.41256781109110136,True
+2025-05-12,New York Knicks,Boston Celtics,1,0,0.3566906831561242,False
+2025-05-13,Cleveland Cavaliers,Indiana Pacers,0,1,0.5687636179401311,False
+2025-05-13,Oklahoma City Thunder,Denver Nuggets,1,1,0.7971663182304435,True
+2025-05-14,Boston Celtics,New York Knicks,1,1,0.632259400221443,True
+2025-05-14,Minnesota Timberwolves,Golden State Warriors,1,1,0.7064445828514042,True
+2025-05-15,Denver Nuggets,Oklahoma City Thunder,1,0,0.3140435460480156,False
+2025-05-16,New York Knicks,Boston Celtics,1,0,0.33190845669931607,False
+2025-05-18,Oklahoma City Thunder,Denver Nuggets,1,1,0.7298458452037364,True
+2025-05-20,Oklahoma City Thunder,Minnesota Timberwolves,1,1,0.5590728291010885,True
+2025-05-21,New York Knicks,Indiana Pacers,0,0,0.3904675720702942,True
+2025-05-22,Oklahoma City Thunder,Minnesota Timberwolves,1,1,0.6482661318833756,True
+2025-05-23,New York Knicks,Indiana Pacers,0,0,0.409332329925323,True
+2025-05-24,Minnesota Timberwolves,Oklahoma City Thunder,1,0,0.43661030720315874,False
+2025-05-25,Indiana Pacers,New York Knicks,0,1,0.600062191777254,False
+2025-05-26,Minnesota Timberwolves,Oklahoma City Thunder,0,1,0.5663336509382655,False
+2025-05-27,Indiana Pacers,New York Knicks,1,1,0.5836911786673844,True
+2025-05-28,Oklahoma City Thunder,Minnesota Timberwolves,1,1,0.6211726209063815,True
+2025-05-29,New York Knicks,Indiana Pacers,1,0,0.4596096470577207,False
+2025-05-31,Indiana Pacers,New York Knicks,1,1,0.5496240233575937,True
+2025-06-05,Oklahoma City Thunder,Indiana Pacers,0,1,0.6010266149045902,False
+2025-06-08,Oklahoma City Thunder,Indiana Pacers,1,1,0.58860472860257,True
+2025-06-11,Indiana Pacers,Oklahoma City Thunder,1,1,0.5081046482708091,True
+2025-06-13,Indiana Pacers,Oklahoma City Thunder,0,1,0.5043833525496382,False
+2025-06-16,Oklahoma City Thunder,Indiana Pacers,1,1,0.6607024903870244,True
+2025-06-19,Indiana Pacers,Oklahoma City Thunder,1,0,0.48406076268333814,False
+2025-06-22,Oklahoma City Thunder,Indiana Pacers,1,1,0.6179626709843437,True
