@@ -9,7 +9,33 @@ from src.predict import predict_game
 
 
 SNAPSHOT_PATH = "data/processed/current_team_snapshots.csv"
+LAST_REFRESH_TIME = "last_refresh.txt"
 
+
+
+def get_last_refresh_time():
+    if os.path.exists(LAST_REFRESH_TIME):
+        try:
+            with open(LAST_REFRESH_TIME, "r") as f:
+                return float(f.read().strip())
+        except:
+            return None
+    return None
+
+def should_auto_refresh():
+    refresh_marker = "last_refresh.txt"
+
+    if not os.path.exists(refresh_marker):
+        return True
+
+    try:
+        with open(refresh_marker, "r") as f:
+            last_refresh = float(f.read().strip())
+
+        return (time.time() - last_refresh) > 60 * 60 * 6  # 6 hours
+
+    except:
+        return True
 
 def auto_refresh_data(force_refresh=False):
     """
@@ -71,7 +97,10 @@ st.set_page_config(
     layout="wide",
 )
 
-auto_refresh_data()
+if should_auto_refresh():
+    with st.spinner("Updating latest NBA data..."):
+        auto_refresh_data(force_refresh=True)
+
 
 @st.cache_data
 def load_teams():
@@ -96,9 +125,7 @@ games_df["GAME_DATE"] = pd.to_datetime(
 
 latest_game_date = games_df["GAME_DATE"].max()
 
-st.sidebar.caption(
-    f"Latest NBA data: {latest_game_date.strftime('%Y-%m-%d')}"
-)
+
 
 col1, col2 = st.columns(2)
 
@@ -217,7 +244,20 @@ else:
             "player availability, trades, coaching changes, betting market odds, or live news."
         )
 
-if st.sidebar.button("🔄 Force Update NBA Data"):
-    auto_refresh_data(force_refresh=True)
-    st.success("NBA data refreshed!")
-    st.rerun()
+        refresh_marker = "last_refresh.txt"
+
+        if os.path.exists(refresh_marker):
+            with open(refresh_marker, "r") as f:
+                last_refresh = float(f.read().strip())
+
+            formatted_time = time.strftime(
+                "%Y-%m-%d %H:%M:%S",
+                time.localtime(last_refresh)
+            )
+
+            st.info(f"📊 Last updated: {formatted_time}")
+        else:
+            st.warning("📊 Last updated: Not available")
+
+        
+

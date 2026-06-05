@@ -91,21 +91,30 @@ def collect_training_data():
 
 def collect_current_season_data():
     current_df = fetch_games_by_season(CURRENT_SEASON)
+
+    # Clean team filter
     current_df = clean_nba_teams_only(current_df)
 
+   
+    current_df["GAME_DATE"] = pd.to_datetime(
+        current_df["GAME_DATE"],
+        errors="coerce"
+    )
+    current_df = current_df.sort_values("GAME_DATE")
+
+    
     current_df.to_csv(CURRENT_OUTPUT_PATH, index=False)
 
     print("\nCurrent season data saved!")
     print("Shape:", current_df.shape)
     print("Path:", CURRENT_OUTPUT_PATH)
 
-    current_df["GAME_DATE"] = pd.to_datetime(current_df["GAME_DATE"])
+    
     latest_date = current_df["GAME_DATE"].max()
     latest_games = current_df[current_df["GAME_DATE"] == latest_date]
 
     print("\nLatest current-season game date:", latest_date)
     print(latest_games[["GAME_DATE", "MATCHUP", "WL", "PTS"]].head(20))
-
 
 def main():
     collect_training_data()
