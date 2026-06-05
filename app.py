@@ -9,6 +9,12 @@ from src.predict import predict_game
 
 SNAPSHOT_PATH = "data/processed/current_team_snapshots.csv"
 
+import os
+import time
+import sys
+import subprocess
+import streamlit as st
+
 def auto_refresh_data():
     """
     Automatically refresh latest NBA data
@@ -16,35 +22,48 @@ def auto_refresh_data():
     """
 
     refresh_marker = "last_refresh.txt"
-
     current_time = time.time()
-
-    refresh_interval_seconds = 60 * 60 * 6
-    # 6 hours
+    refresh_interval_seconds = 60 * 60 * 6  # 6 hours
 
     should_refresh = True
 
+    # Check last refresh time
     if os.path.exists(refresh_marker):
-        with open(refresh_marker, "r") as f:
-            last_refresh = float(f.read())
+        try:
+            with open(refresh_marker, "r") as f:
+                last_refresh = float(f.read().strip())
 
-        elapsed = current_time - last_refresh
+            elapsed = current_time - last_refresh
 
-        if elapsed < refresh_interval_seconds:
-            should_refresh = False
+            if elapsed < refresh_interval_seconds:
+                should_refresh = False
+
+        except Exception:
+            # If file is corrupted, force refresh
+            should_refresh = True
 
     if should_refresh:
         with st.spinner("Updating latest NBA games..."):
+            try:
+                subprocess.run(
+                    [sys.executable, "src/collect_data.py"],
+                    check=True,
+                    capture_output=True,
+                    text=True
+                )
 
-            subprocess.run(
-                ["python", "src/collect_data.py"],
-                check=True,
-            )
+                subprocess.run(
+                    [sys.executable, "src/build_current_features.py"],
+                    check=True,
+                    capture_output=True,
+                    text=True
+                )
 
-            subprocess.run(
-                ["python", "src/build_current_features.py"],
-                check=True,
-            )
+            except subprocess.CalledProcessError as e:
+                st.error("❌ Data refresh failed. Check logs for details.")
+                st.text("STDERR:\n" + (e.stderr or "No stderr"))
+                st.text("STDOUT:\n" + (e.stdout or "No stdout"))
+                raise
 
         with open(refresh_marker, "w") as f:
             f.write(str(current_time))
