@@ -116,7 +116,7 @@ over_under_line = st.number_input(
     "Optional Over/Under Line",
     min_value=100.0,
     max_value=300.0,
-    value=220,
+    value=220.0,
     step=0.5,
 )
 
