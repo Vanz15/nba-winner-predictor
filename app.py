@@ -1,10 +1,53 @@
 import streamlit as st
 import pandas as pd
+import subprocess
+import os
+import time
 
 from src.predict import predict_game
 
 
 SNAPSHOT_PATH = "data/processed/current_team_snapshots.csv"
+
+def auto_refresh_data():
+    """
+    Automatically refresh latest NBA data
+    when the app starts.
+    """
+
+    refresh_marker = "last_refresh.txt"
+
+    current_time = time.time()
+
+    refresh_interval_seconds = 60 * 60 * 6
+    # 6 hours
+
+    should_refresh = True
+
+    if os.path.exists(refresh_marker):
+        with open(refresh_marker, "r") as f:
+            last_refresh = float(f.read())
+
+        elapsed = current_time - last_refresh
+
+        if elapsed < refresh_interval_seconds:
+            should_refresh = False
+
+    if should_refresh:
+        with st.spinner("Updating latest NBA games..."):
+
+            subprocess.run(
+                ["python", "src/collect_data.py"],
+                check=True,
+            )
+
+            subprocess.run(
+                ["python", "src/build_current_features.py"],
+                check=True,
+            )
+
+        with open(refresh_marker, "w") as f:
+            f.write(str(current_time))
 
 
 st.set_page_config(
@@ -13,6 +56,7 @@ st.set_page_config(
     layout="wide",
 )
 
+auto_refresh_data()
 
 @st.cache_data
 def load_teams():
@@ -27,6 +71,19 @@ st.caption(
 )
 
 teams = load_teams()
+games_df = pd.read_csv(
+    "data/raw/nba_games_current_raw.csv"
+)
+
+games_df["GAME_DATE"] = pd.to_datetime(
+    games_df["GAME_DATE"]
+)
+
+latest_game_date = games_df["GAME_DATE"].max()
+
+st.sidebar.caption(
+    f"Latest NBA data: {latest_game_date.strftime('%Y-%m-%d')}"
+)
 
 col1, col2 = st.columns(2)
 
@@ -40,7 +97,7 @@ over_under_line = st.number_input(
     "Optional Over/Under Line",
     min_value=100.0,
     max_value=300.0,
-    value=224.5,
+    value=220,
     step=0.5,
 )
 
