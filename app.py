@@ -3,19 +3,15 @@ import pandas as pd
 import subprocess
 import os
 import time
+import sys 
 
 from src.predict import predict_game
 
 
 SNAPSHOT_PATH = "data/processed/current_team_snapshots.csv"
 
-import os
-import time
-import sys
-import subprocess
-import streamlit as st
 
-def auto_refresh_data():
+def auto_refresh_data(force_refresh=False):
     """
     Automatically refresh latest NBA data
     when the app starts.
@@ -25,10 +21,10 @@ def auto_refresh_data():
     current_time = time.time()
     refresh_interval_seconds = 60 * 60 * 6  # 6 hours
 
-    should_refresh = True
+    should_refresh = force_refresh
 
     # Check last refresh time
-    if os.path.exists(refresh_marker):
+    if os.path.exists(refresh_marker) and not force_refresh:
         try:
             with open(refresh_marker, "r") as f:
                 last_refresh = float(f.read().strip())
@@ -220,3 +216,8 @@ else:
             "This model currently does not account for injuries, confirmed starting lineups, "
             "player availability, trades, coaching changes, betting market odds, or live news."
         )
+
+if st.sidebar.button("🔄 Force Update NBA Data"):
+    auto_refresh_data(force_refresh=True)
+    st.success("NBA data refreshed!")
+    st.rerun()
